@@ -8,7 +8,7 @@ You are more than welcome to suggest improvements to both slides and code!
 
 |Filename |Explanation |
 |-------|-------|
-|[CompML.pdf](CompML.pdf)  | Slides for the workshop, largely discussing Kaggle and introducing DFS |
+|[CompML.pdf](CompML.pdf)  | Slides for the workshop, largely discussing Kaggle and introducing DFS, along with some fairly rudimentary modelling concepts |
 |[DKSalaries.csv](DKSalaries.csv)  | File listing eligible players and their salary cost for this weeks (already ongoing) PGA competition |
 |[lotsPGA.csv](lotsPGA.csv)| File containing tournament-level data for each PGA tour player scraped from PGAtour.com. Note: I will go over the script to scrape this in person in the workshop, but will not be posting it publicly. While PGAtour.com does not place restrictions on scraping in the necessary area according to their [robots.txt](https://www.pgatour.com/robots.txt) file, I generally err against poking the proverbial bear... |
 |[FE_and_modelling.R](FE_and_modelling.R)| R script that will take the raw data, clean it, setup the features (feature engineering), and then fit a couple of basic models for predicting tournament performance |
