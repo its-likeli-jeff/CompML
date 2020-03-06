@@ -16,6 +16,6 @@ A short introductory workshop on kaggle and DFS. First, a brief explanation of t
 
 Note that the various scripts are not at all optimized or well-commented. There are approximately 6 years of iterative, lazy hacks to get the data, set it up, analyze it, and build DFS teams from that information, which I have boiled down to a consumable size for a 1.5 hour workshop.
 
-Further note, the models that we end up using are certainly non-optimal in terms of their predictions, even under the constraint of only having our sourced data...but they are nice out-of-the-box methods to illustrate the general goal, without having to worry about tuning lots of things and tracking the potential for overfitting. AKA, don't expect to take this code and crush DFS competitons out of the gate
+Further note, the models that we end up using are certainly non-optimal in terms of their predictions, even under the constraint of only having our sourced data...but they are nice out-of-the-box methods to illustrate the general goal, without having to worry about tuning lots of things and tracking the potential for overfitting. AKA, don't expect to take this code and crush DFS competitions out of the gate.
 
 All that said, please do suggest improvements to both slides and code!
