@@ -1,7 +1,9 @@
 # CompML
 A short introductory workshop on kaggle and DFS. First, a brief explanation of the files in this project, in the approximate order that we'll be taking them...
 
-Note that the various scripts are not at all optimized or well-commented. There are approximately 6 years of very lazy hacks to get the data, set it up, analyze it, and build DFS teams from that information, which I frankly never intended to share publicly. You are more than welcome to point out inefficiencies!
+Note that the various scripts are not at all optimized or well-commented. There are approximately 6 years of very lazy hacks to get the data, set it up, analyze it, and build DFS teams from that information, which I have boiled down to a consumable size for a 1.5 hour workshop --- but frankly never intended to share publicly. 
+
+You are more than welcome to point out inefficiencies and improvements to both slides and code!
 
 
 |Filename |Explanation |
