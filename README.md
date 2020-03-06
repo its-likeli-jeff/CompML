@@ -11,4 +11,4 @@ Note that the various scripts are not at all optimized or well-commented. There 
 |[FE_and_modeling.R](FE_and_modeling.R)| R script that will take the raw data, clean it, setup the features (feature engineering), and then fit a couple of basic models for predicting tournament performance |
 |[lmweekpreds.csv](lmweekpreds.csv)| Tournament rank predictions (for this week prior to the tournament starting) using the linear model from the R script above |
 |[rfweekpreds.csv](lmweekpreds.csv)| Tournament rank predictions (for this week prior to the tournament starting) using the random forest model from the R script above |
-|[optimization_workshop_script.R](optimization_workshop_script.R)| R script takes predicted performance and uses an integer programming solver in R to provide an optimal team under the salary cap constraints|
+|[optimization_workshop_script.R](optimization_workshop_script.R)| R script that takes predicted performance and uses an integer (binary) programming solver in R to provide an optimal team under the salary cap constraints|
