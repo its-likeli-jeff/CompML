@@ -1,4 +1,4 @@
-pg <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/DKSalaries.csv", stringsAsFactors = FALSE)
+pg <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/lotsPGA.csv", stringsAsFactors = FALSE)
 pgorig <- pg
 colnames(pg)[13:26] <- recpn
 pg$X <- unlist(lapply(strsplit(pg$X, ":"), function(v) v[1]))
