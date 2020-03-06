@@ -7,6 +7,8 @@ Note that the various scripts are not at all optimized or well-commented. There 
 |Filename |Explanation |
 |-------|-------|
 |[CompML.pdf](CompML.pdf)  | Slides for the workshop, largely discussing Kaggle and introducing DFS |
-|[lotsPGA.csv](lotsPGA.csv)| File containing tournament-level data for each PGA tour player scraped from PGAtour.com. Note: I will go over the script to scrape this in person in the workshop, but will not be posting it publicly |
+|[lotsPGA.csv](lotsPGA.csv)| File containing tournament-level data for each PGA tour player scraped from PGAtour.com. Note: I will go over the script to scrape this in person in the workshop, but will not be posting it publicly. While PGAtour.com does not place restrictions on scraping according to their robots.txt file, I always err against poking the proverbial bear... |
 |[FE_and_modeling.R](FE_and_modeling.R)| R script that will take the raw data, clean it, setup the features (feature engineering), and then fit a couple of basic models for predicting tournament performance |
-|[optimization_workshop_script.R](optimization_workshop_script.R)| R script that will take the raw data, clean it, setup the features/inputs to the models, and then fit a couple of basic models for predicting tournament performance |
+|[lmweekpreds.csv](lmweekpreds.csv)| Tournament rank predictions (for this week prior to the tournament starting) using the linear model from the R script above |
+|[rfweekpreds.csv](lmweekpreds.csv)| Tournament rank predictions (for this week prior to the tournament starting) using the random forest model from the R script above |
+|[optimization_workshop_script.R](optimization_workshop_script.R)| R script takes predicted performance and uses an integer programming solver in R to provide an optimal team under the salary cap constraints|
