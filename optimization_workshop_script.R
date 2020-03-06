@@ -22,7 +22,7 @@ fixnames <- function(thefield, dk, fanduel){
 
 
 
-
+#pick which model you want to use for your predictions
 weekpreds <- read.csv("~/Downloads/rfweekpreds.csv")
 weekpreds <- read.csv("~/Downloads/lmweekpreds.txt")
 
