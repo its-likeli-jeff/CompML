@@ -81,12 +81,10 @@ wlags <- data.frame(newpg$finrank, lagmat, lagmat2, lagmat3, lagmat4, lagmat5, l
 #relatively fast
 lmfit <- lm(as.numeric(newpg.finrank)~., data=wlags)
 summary(lmfit)
-#write.csv(sort(predict(lmfit, newdata=do.call("rbind", as.list(by(wlags,  newpg$pg.firstlast.i, tail, n=1))))), "~/Dropbox/DK/PGA data/lmweekpreds.csv")
 
 
-#SEVERAL HOURS! approx 8+ on my desktop
+#SEVERAL HOURS! approx 8+ on my home desktop
 library(randomForest)
 rfrun <- randomForest(as.numeric(newpg.finrank)~., data=na.omit(wlags))
-#write.csv(sort(predict(rfrun, newdata=do.call("rbind", as.list(by(wlags,  newpg$pg.firstlast.i, tail, n=1))))), "~/Dropbox/DK/PGA data/rfweekpreds.csv")
 
 
