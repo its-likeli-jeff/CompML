@@ -1,6 +1,5 @@
 pg <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/lotsPGA.csv", stringsAsFactors = FALSE)
 pgorig <- pg
-colnames(pg)[13:26] <- recpn
 pg$X <- unlist(lapply(strsplit(pg$X, ":"), function(v) v[1]))
 colnames(pg)[c(1,2,38,13, 14, 16, 21, 30)] <- c("firstlast.i", "Date", "TO.PARSCORE", "GIR", "DRVGACC", "DRVDIST", "STROKESGAINEDPUTTING", "Tournament.Name")
 
