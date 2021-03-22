@@ -22,14 +22,15 @@ fixnames <- function(thefield, dk, fanduel){
 
 
 
-#pick which model you want to use for your predictions
-weekpreds <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/rfweekpreds.csv")
-weekpreds <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/lmweekpreds.csv")
 
+weekpreds <- read.csv("~/Downloads/rfweekpreds.csv", stringsAsFactors = FALSE)
+#weekpreds <- read.csv("~/Downloads/lmweekpreds.txt")
 
+####or
+#### weekpreds <- read.csv("~/Dropbox/Seminars/2019Workshop/Scripts/rfweekpreds.csv")
 thefield <- weekpreds[,1]
 odd <- weekpreds[,2]
-dk2 <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/DKSalaries.csv", header=TRUE, stringsAsFactors=FALSE )
+dk2 <- read.csv("~/Downloads/DKSalaries.csv", header=TRUE, stringsAsFactors=FALSE )
 thefield <- fixnames(thefield, dk2, fanduel=FALSE)
 
 

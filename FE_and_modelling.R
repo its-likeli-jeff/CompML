@@ -1,12 +1,22 @@
-pg <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/lotsPGA.csv", stringsAsFactors = FALSE)
+#updated 2021
+pg <- read.csv("~/pCloudDrive/DropboxFolder2/DK/PGA data/lotsPGA.csv", stringsAsFactors = FALSE, skipNul=TRUE)
 pgorig <- pg
+#pg <- pg[,-1]
+recpn <- c("Greens in Regulation Percentage", "Driving Accuracy Percentage", 
+           "Longest Drives", "Driving Distance", "Total Driving", "Sand Save Percentage",
+           "All-Around Ranking", "Ball Striking", "Strokes Gained: Putting",
+           "Par 3 Performance", "Par 4 Performance", "Par 5 Performance", 
+           "Front 9 Scoring Average","Back 9 Scoring Average")
+colnames(pg)[c(13:26)] <- recpn
 pg$X <- unlist(lapply(strsplit(pg$X, ":"), function(v) v[1]))
-colnames(pg)[c(1,2,38,13, 14, 16, 21, 30)] <- c("firstlast.i", "Date", "TO.PARSCORE", "GIR", "DRVGACC", "DRVDIST", "STROKESGAINEDPUTTING", "Tournament.Name")
+colnames(pg)[c(1,2,39,14, 15, 17, 22, 29, 31)] <- c("firstlast.i", "Date", "TO.PARSCORE", "GIR", "DRVGACC", "DRVDIST", "STROKESGAINEDPUTTING", "CourseID", "Tournament.Name")
 
-
-#Cleaning and Feature Engineering
-finrank <- girrank <- drvgaccrank <- drvdistrank <- strgainrank <- rep(NA, length=nrow(pg))
-madecut <- !pg$finPos.fmt=="CUT"
+#Cleaning
+library(rvest)
+library(jsonlite)
+library(gtools)
+library(readr)
+library(data.table)
 pg$TO.PARSCORE[pg$TO.PARSCORE=="E"] <- "0"
 pg$TO.PARSCORE <- gsub(" ", "", pg$TO.PARSCORE)
 pg$TO.PARSCORE <- as.numeric(pg$TO.PARSCORE)
@@ -14,76 +24,93 @@ pg$GIR <- gsub("%", "", pg$GIR)
 pg$GIR <- as.numeric(pg$GIR)
 pg$DRVGACC <- gsub("%", "", pg$DRVGACC)
 pg$DRVGACC <- as.numeric(pg$DRVGACC)
-for(i in unique(pg$Date)){
-  pgdum <- pg[pg$Date==i,]
-  for(j in unique(pgdum$Tournament.Name)){
-    pgdum2 <- pgdum[pgdum$Tournament.Name==j,]
-    ind <- as.numeric(row.names(pgdum2))
-    finrank[ind] <- rank(pgdum2$TO.PARSCORE, ties.method = "min")
-    girrank[ind] <- rank(-pgdum2$GIR, ties.method="min")
-    drvgaccrank[ind] <- rank(-pgdum2$DRVGACC, ties.method="min")
-    drvdistrank[ind] <- rank(-pgdum2$DRVDIST, ties.method="min")
-    strgainrank[ind] <- rank(-pgdum2$STROKESGAINEDPUTTING, ties.method="min")
-  }
-}
+pg2 <- as.data.table(pg)
+pg2 <- pg2[finPos.fmt!="CNL"]
+pg2 <- pg2[finPos.fmt!="W/D"]
+pg2 <- pg2[finPos.fmt!="DNQ"]
+pg2 <- pg2[finPos.fmt!="DNS"]
+pg2 <- pg2[finPos.fmt!="DQ"]
 
-
-newpg <- data.frame(pg$firstlast.i, pg$Date, pg$Tournament.Name, finrank, girrank, drvgaccrank, strgainrank, drvdistrank, madecut)
-newpg$pg.Date <- as.Date(newpg$pg.Date, format="%m/%d/%Y")
-newpg <- newpg[-grep("\\(", newpg$pg.Tournament.Name),]
-newpg <- newpg[-grep("Match", newpg$pg.Tournament.Name),]
-#summary(lm(finrank~girrank+drvgaccrank+strgainrank+drvdistrank))
-
-library(zoo)
-#remove solo tourney players
-if(any(table(newpg$pg.firstlast.i)==1)){
-  newpg <- newpg[-which(newpg$pg.firstlast.i %in% names(which(table(newpg$pg.firstlast.i)==1))),]
-  row.names(newpg) <- 1:nrow(newpg)
-}
-lagfinrank <- laggir <- lagdrva <- lagstrg <- lagdrvd <- lagdays <- rep(NA, nrow(newpg))
-lagmat <- lagmat2 <- lagmat3 <- lagmat4 <- lagmat5 <- lagmat6 <- lagmat7 <- data.frame(lagfinrank, laggir, lagdrva, lagstrg, lagdrvd, lagdays)
-#setup lags, first sort
-newpg2 <- rep(NA, 9)
+#Feature Engineering
 fivedaywin <- c(as.Date(Sys.Date()), as.Date(Sys.Date())+1, as.Date(Sys.Date())+2, as.Date(Sys.Date())+3, as.Date(Sys.Date())+4)
 tournday <- as.character(fivedaywin[weekdays(fivedaywin)=="Thursday"])
-for(i in unique(newpg$pg.firstlast.i)){
-  playpg <- newpg[newpg$pg.firstlast.i==i,]
-  playpg <- playpg[order(playpg$pg.Date),]
-  newpg2 <- rbind(newpg2, playpg, c(as.character(i), tournday, rep(NA,7)))
-} 
-#newpg <- na.omit(newpg)
 
-newpg <- newpg2[-1,]
-row.names(newpg) <- 1:nrow(newpg)
-for(i in unique(newpg$pg.firstlast.i)){
-  cat(i, "\r", sep="")
-  playpg <- newpg[newpg$pg.firstlast.i==i,]
-    lagmat[as.numeric(row.names(playpg)),] <- rbind(rep(NA, 6), cbind(playpg[1:(nrow(playpg)-1),4:8], diff(playpg$pg.Date)))
-}
+pg2[, FinRank := frank(TO.PARSCORE, ties.method="min"), by=list(Date, Tournament.Name)]
+pg2[, GIRRank := frank(-GIR, ties.method="min"), by=list(Date, Tournament.Name)]
+pg2[, DrvAccRank := frank(-DRVGACC, ties.method="min"), by=list(Date, Tournament.Name)]
+pg2[, DrvDistRank := frank(-DRVDIST, ties.method="min"), by=list(Date, Tournament.Name)]
+pg2[, StrGainRank := frank(-STROKESGAINEDPUTTING, ties.method="min"), by=list(Date, Tournament.Name)]
+pg2$Date <- as.Date(pg2$Date, format="%m/%d/%Y")
+pg3 <- pg2
 
-lagmat <- apply(lagmat, 2, as.numeric)
+nm <- colnames(pg2)[40:44]
+nm1 <- paste("lag1", nm, sep=".")
+pg2[, (nm1) :=  shift(.SD), by=firstlast.i, .SDcols=nm]
+#pg2[, (nm1) :=  frollmean(.SD, align="right", n=1), by=firstlast.i, .SDcols=nm]
+pg2[, "DateDiff" :=  Date-shift(Date), by=firstlast.i]
+pg2$DateDiff <- as.numeric(pg2$DateDiff)
+nm <- c(nm, "DateDiff")
+nm1 <- c(nm1, "DateDiff")
+nm2 <- paste("lag2", nm, sep=".")
+pg2[, (nm2) :=  frollmean(.SD, align="right", n=2), by=firstlast.i, .SDcols=nm1]
+nm3 <- paste("lag3", nm, sep=".")
+pg2[, (nm3) :=  frollmean(.SD, align="right", n=3), by=firstlast.i, .SDcols=nm1]
+nm4 <- paste("lag4", nm, sep=".")
+pg2[, (nm4) :=  frollmean(.SD, align="right", n=4), by=firstlast.i, .SDcols=nm1]
+nm5 <- paste("lag5", nm, sep=".")
+pg2[, (nm5) :=  frollmean(.SD, align="right", n=5), by=firstlast.i, .SDcols=nm1]
+nm6 <- paste("lag6", nm, sep=".")
+pg2[, (nm6) :=  frollmean(.SD, align="right", n=6), by=firstlast.i, .SDcols=nm1]
+nm7 <- paste("lag7", nm, sep=".")
+pg2[, (nm7) :=  frollmean(.SD, align="right", n=7), by=firstlast.i, .SDcols=nm1]
 
-for(i in unique(newpg$pg.firstlast.i)){
-  cat(i, "\r", sep="")
-  playpg <- newpg[newpg$pg.firstlast.i==i,]
-    try(lagmat2[as.numeric(row.names(playpg)),] <- rollapply(lagmat[as.numeric(row.names(playpg)),] ,2, mean, by=1, align="right", fill=NA, by.column=TRUE), silent=TRUE)
-    try(lagmat3[as.numeric(row.names(playpg)),] <- rollapply(lagmat[as.numeric(row.names(playpg)),] ,3, mean, by=1, align="right", fill=NA, by.column=TRUE), silent=TRUE)
-    try(lagmat4[as.numeric(row.names(playpg)),] <- rollapply(lagmat[as.numeric(row.names(playpg)),] ,4, mean, by=1, align="right", fill=NA, by.column=TRUE), silent=TRUE)
-    try(lagmat5[as.numeric(row.names(playpg)),] <- rollapply(lagmat[as.numeric(row.names(playpg)),] ,5, mean, by=1, align="right", fill=NA, by.column=TRUE), silent=TRUE)
-    try(lagmat6[as.numeric(row.names(playpg)),] <- rollapply(lagmat[as.numeric(row.names(playpg)),] ,6, mean, by=1, align="right", fill=NA, by.column=TRUE), silent=TRUE)
-    try(lagmat7[as.numeric(row.names(playpg)),] <- rollapply(lagmat[as.numeric(row.names(playpg)),] ,7, mean, by=1, align="right", fill=NA, by.column=TRUE), silent=TRUE)
-}
 
-wlags <- data.frame(newpg$finrank, lagmat, lagmat2, lagmat3, lagmat4, lagmat5, lagmat6, lagmat7, stringsAsFactors = FALSE)
-
+wlags <- pg2[,c(40,45:86)]
+wlags <- na.omit(wlags)
 
 #relatively fast
-lmfit <- lm(as.numeric(newpg.finrank)~., data=wlags)
+lmfit <- lm(FinRank~., data=wlags)
 summary(lmfit)
+#write.csv(sort(predict(lmfit, newdata=do.call("rbind", as.list(by(wlags,  newpg$pg.firstlast.i, tail, n=1))))), "~/Dropbox/DK/PGA data/lmweekpreds.csv")
 
 
-#SEVERAL HOURS! approx 8+ on my home desktop
-library(randomForest)
-rfrun <- randomForest(as.numeric(newpg.finrank)~., data=na.omit(wlags))
+#ALSO relatively fast
+library(ranger)
+rfrun <- ranger(FinRank~., data=wlags, num.trees=500, importance="impurity")
+rfrun
+
+#pull the latest row for each player to feed in for prediction
+tournday <- as.Date(tournday)
+nm <- colnames(pg3)[40:44]
+nm1 <- paste("lag1", nm, sep=".")
+pg3[, (nm1) :=  .SD, by=firstlast.i, .SDcols=nm]
+#pg2[, (nm1) :=  frollmean(.SD, align="right", n=1), by=firstlast.i, .SDcols=nm]
+pg3[, "DateDiff" :=  (c(Date, tournday)-shift(c(Date,tournday)))[-1], by=firstlast.i]
+pg3$DateDiff <- as.numeric(pg3$DateDiff)
+nm <- c(nm, "DateDiff")
+nm1 <- c(nm1, "DateDiff")
+nm2 <- paste("lag2", nm, sep=".")
+pg3[, (nm2) :=  frollmean(.SD, align="right", n=2), by=firstlast.i, .SDcols=nm1]
+nm3 <- paste("lag3", nm, sep=".")
+pg3[, (nm3) :=  frollmean(.SD, align="right", n=3), by=firstlast.i, .SDcols=nm1]
+nm4 <- paste("lag4", nm, sep=".")
+pg3[, (nm4) :=  frollmean(.SD, align="right", n=4), by=firstlast.i, .SDcols=nm1]
+nm5 <- paste("lag5", nm, sep=".")
+pg3[, (nm5) :=  frollmean(.SD, align="right", n=5), by=firstlast.i, .SDcols=nm1]
+nm6 <- paste("lag6", nm, sep=".")
+pg3[, (nm6) :=  frollmean(.SD, align="right", n=6), by=firstlast.i, .SDcols=nm1]
+nm7 <- paste("lag7", nm, sep=".")
+pg3[, (nm7) :=  frollmean(.SD, align="right", n=7), by=firstlast.i, .SDcols=nm1]
+
+
+preddat <- pg3[, .SD[.N], by=firstlast.i]
+preddat2 <- as.data.frame(preddat[,c(1,45:86)])
+rownames(preddat2) <- preddat2$firstlast.i
+
+rfpreds <- predict(rfrun, data=na.omit(preddat2))
+rfpreds2 <- as.data.frame(rfpreds$predictions)
+rownames(rfpreds2) <- rownames(na.omit(preddat2))
+rfpreds2[order(rfpreds2[,1]),]
+write.csv(rfpreds2, "~/Downloads/rfweekpreds.csv")
 
 
