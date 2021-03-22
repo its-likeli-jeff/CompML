@@ -113,4 +113,6 @@ rownames(rfpreds2) <- rownames(na.omit(preddat2))
 rfpreds2[order(rfpreds2[,1]),]
 write.csv(rfpreds2, "~/Downloads/rfweekpreds.csv")
 
-
+lmpreds <- predict(lmfit, newdata=na.omit(preddat2))
+names(lmpreds) <- rownames(na.omit(preddat2))
+write.csv(lmpreds, "~/Downloads/lmweekpreds.csv")

@@ -24,10 +24,8 @@ fixnames <- function(thefield, dk, fanduel){
 
 
 weekpreds <- read.csv("~/Downloads/rfweekpreds.csv", stringsAsFactors = FALSE)
-#weekpreds <- read.csv("~/Downloads/lmweekpreds.txt")
+#weekpreds <- read.csv("~/Downloads/lmweekpreds.csv")
 
-####or
-#### weekpreds <- read.csv("~/Dropbox/Seminars/2019Workshop/Scripts/rfweekpreds.csv")
 thefield <- weekpreds[,1]
 odd <- weekpreds[,2]
 dk2 <- read.csv("~/Downloads/DKSalaries.csv", header=TRUE, stringsAsFactors=FALSE )
@@ -52,4 +50,4 @@ f.rhs <- c(6, sallimit)
 
 test<- lp(optimi, f.obj, f.con, f.dir, f.rhs, all.bin=TRUE, transpose.constraints=FALSE)
 print(sort(dk[as.logical(test$solution),3]))
-head(weekpreds)
+
