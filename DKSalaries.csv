@@ -1,148 +1,65 @@
 Position,Name + ID,Name,ID,Roster Position,Salary,Game Info,TeamAbbrev,AvgPointsPerGame
-G,Sungjae Im (16682679),Sungjae Im,16682679,G,11000,The Honda Classic,Golf,79.84
-G,Daniel Berger (16682680),Daniel Berger,16682680,G,10800,The Honda Classic,Golf,84.6
-G,Lee Westwood (16682681),Lee Westwood,16682681,G,10600,The Honda Classic,Golf,60.4
-G,Joaquin Niemann (16682682),Joaquin Niemann,16682682,G,10400,The Honda Classic,Golf,88.82
-G,Adam Scott (16682683),Adam Scott,16682683,G,10100,The Honda Classic,Golf,71.39
-G,Russell Henley (16682684),Russell Henley,16682684,G,9800,The Honda Classic,Golf,70.09
-G,Gary Woodland (16682685),Gary Woodland,16682685,G,9500,The Honda Classic,Golf,40.86
-G,Talor Gooch (16682686),Talor Gooch,16682686,G,9300,The Honda Classic,Golf,63.5
-G,Shane Lowry (16682687),Shane Lowry,16682687,G,9200,The Honda Classic,Golf,57.46
-G,Cameron Tringale (16682688),Cameron Tringale,16682688,G,9100,The Honda Classic,Golf,69.08
-G,Chris Kirk (16682689),Chris Kirk,16682689,G,9000,The Honda Classic,Golf,73.43
-G,Rickie Fowler (16682690),Rickie Fowler,16682690,G,8900,The Honda Classic,Golf,52.46
-G,Doug Ghim (16682691),Doug Ghim,16682691,G,8800,The Honda Classic,Golf,69.36
-G,Brendan Steele (16682692),Brendan Steele,16682692,G,8700,The Honda Classic,Golf,64.35
-G,Cameron Davis (16682693),Cameron Davis,16682693,G,8600,The Honda Classic,Golf,71.62
-G,Matt Wallace (16682694),Matt Wallace,16682694,G,8500,The Honda Classic,Golf,55.88
-G,Keegan Bradley (16682695),Keegan Bradley,16682695,G,8400,The Honda Classic,Golf,57.68
-G,Martin Kaymer (16682696),Martin Kaymer,16682696,G,8300,The Honda Classic,Golf,45.25
-G,Dylan Frittelli (16682697),Dylan Frittelli,16682697,G,8200,The Honda Classic,Golf,50.75
-G,Ian Poulter (16682698),Ian Poulter,16682698,G,8100,The Honda Classic,Golf,50.3
-G,Byeong Hun An (16682699),Byeong Hun An,16682699,G,8000,The Honda Classic,Golf,49.58
-G,Wyndham Clark (16682700),Wyndham Clark,16682700,G,8000,The Honda Classic,Golf,64.38
-G,J.T. Poston (16682701),J.T. Poston,16682701,G,7900,The Honda Classic,Golf,56.96
-G,Russell Knox (16682702),Russell Knox,16682702,G,7900,The Honda Classic,Golf,57.6
-G,Mackenzie Hughes (16682703),Mackenzie Hughes,16682703,G,7800,The Honda Classic,Golf,61.12
-G,Brandon Wu (16682704),Brandon Wu,16682704,G,7800,The Honda Classic,Golf,80.59
-G,Adam Hadwin (16682705),Adam Hadwin,16682705,G,7700,The Honda Classic,Golf,56.38
-G,Alex Noren (16682706),Alex Noren,16682706,G,7700,The Honda Classic,Golf,52.83
-G,Kevin Streelman (16682707),Kevin Streelman,16682707,G,7700,The Honda Classic,Golf,61.39
-G,Harold Varner III (16682708),Harold Varner III,16682708,G,7600,The Honda Classic,Golf,57.92
-G,Erik Van Rooyen (16682709),Erik Van Rooyen,16682709,G,7600,The Honda Classic,Golf,46.1
-G,Aaron Wise (16682710),Aaron Wise,16682710,G,7600,The Honda Classic,Golf,57
-G,Luke List (16682711),Luke List,16682711,G,7500,The Honda Classic,Golf,56.56
-G,Michael Thompson (16682712),Michael Thompson,16682712,G,7500,The Honda Classic,Golf,62.21
-G,Kyoung-Hoon Lee (16682713),Kyoung-Hoon Lee,16682713,G,7500,The Honda Classic,Golf,53.25
-G,Patton Kizzire (16682714),Patton Kizzire,16682714,G,7500,The Honda Classic,Golf,74.5
-G,Zach Johnson (16682715),Zach Johnson,16682715,G,7400,The Honda Classic,Golf,70.32
-G,Matt Jones (16682716),Matt Jones,16682716,G,7400,The Honda Classic,Golf,66.6
-G,Phil Mickelson (16682717),Phil Mickelson,16682717,G,7400,The Honda Classic,Golf,60.62
-G,Henrik Norlander (16682718),Henrik Norlander,16682718,G,7400,The Honda Classic,Golf,51.37
-G,Jhonattan Vegas (16682719),Jhonattan Vegas,16682719,G,7300,The Honda Classic,Golf,59
-G,Ryan Moore (16682720),Ryan Moore,16682720,G,7300,The Honda Classic,Golf,46.5
-G,Matthew NeSmith (16682721),Matthew NeSmith,16682721,G,7300,The Honda Classic,Golf,58.93
-G,James Hahn (16682722),James Hahn,16682722,G,7300,The Honda Classic,Golf,70.35
-G,Richy Werenski (16682723),Richy Werenski,16682723,G,7200,The Honda Classic,Golf,59
-G,Maverick McNealy (16682724),Maverick McNealy,16682724,G,7200,The Honda Classic,Golf,57.19
-G,Rafa Cabrera Bello (16682725),Rafa Cabrera Bello,16682725,G,7200,The Honda Classic,Golf,52.54
-G,Rory Sabbatini (16682726),Rory Sabbatini,16682726,G,7200,The Honda Classic,Golf,58.08
-G,Keith Mitchell (16682727),Keith Mitchell,16682727,G,7200,The Honda Classic,Golf,46.08
-G,Will Gordon (16682728),Will Gordon,16682728,G,7100,The Honda Classic,Golf,56.73
-G,Adam Long (16682729),Adam Long,16682729,G,7100,The Honda Classic,Golf,58.86
-G,Nick Taylor (16682730),Nick Taylor,16682730,G,7100,The Honda Classic,Golf,58.21
-G,Harry Higgs (16682731),Harry Higgs,16682731,G,7100,The Honda Classic,Golf,57.29
-G,Doc Redman (16682732),Doc Redman,16682732,G,7100,The Honda Classic,Golf,50.25
-G,Chez Reavie (16682733),Chez Reavie,16682733,G,7000,The Honda Classic,Golf,48.75
-G,Mark Hubbard (16682734),Mark Hubbard,16682734,G,7000,The Honda Classic,Golf,50.25
-G,Patrick Rodgers (16682735),Patrick Rodgers,16682735,G,7000,The Honda Classic,Golf,51.06
-G,Lucas Glover (16682736),Lucas Glover,16682736,G,7000,The Honda Classic,Golf,53.75
-G,Tom Lewis (16682737),Tom Lewis,16682737,G,7000,The Honda Classic,Golf,36.36
-G,John Huh (16682738),John Huh,16682738,G,6900,The Honda Classic,Golf,69.75
-G,Jim Furyk (16682739),Jim Furyk,16682739,G,6900,The Honda Classic,Golf,80.2
-G,Tom Hoge (16682740),Tom Hoge,16682740,G,6900,The Honda Classic,Golf,59.94
-G,Cameron Percy (16682741),Cameron Percy,16682741,G,6900,The Honda Classic,Golf,60.75
-G,Denny McCarthy (16682742),Denny McCarthy,16682742,G,6900,The Honda Classic,Golf,53.1
-G,Peter Malnati (16682743),Peter Malnati,16682743,G,6900,The Honda Classic,Golf,61.39
-G,Wesley Bryan (16682744),Wesley Bryan,16682744,G,6800,The Honda Classic,Golf,55.11
-G,Lucas Herbert (16682745),Lucas Herbert,16682745,G,6800,The Honda Classic,Golf,53
-G,Padraig Harrington (16682746),Padraig Harrington,16682746,G,6800,The Honda Classic,Golf,54.88
-G,Grayson Murray (16682747),Grayson Murray,16682747,G,6800,The Honda Classic,Golf,42.41
-G,Steve Stricker (16682748),Steve Stricker,16682748,G,6800,The Honda Classic,Golf,62.75
-G,Charl Schwartzel (16682749),Charl Schwartzel,16682749,G,6800,The Honda Classic,Golf,50.67
-G,Nate Lashley (16682750),Nate Lashley,16682750,G,6700,The Honda Classic,Golf,57.11
-G,Adam Schenk (16682751),Adam Schenk,16682751,G,6700,The Honda Classic,Golf,51.6
-G,Kristoffer Ventura (16682752),Kristoffer Ventura,16682752,G,6700,The Honda Classic,Golf,60.81
-G,Ted Potter Jr. (16682753),Ted Potter Jr.,16682753,G,6700,The Honda Classic,Golf,42.29
-G,Jason Dufner (16682754),Jason Dufner,16682754,G,6700,The Honda Classic,Golf,44.69
-G,Sepp Straka (16682755),Sepp Straka,16682755,G,6700,The Honda Classic,Golf,63.63
-G,Henrik Stenson (16682756),Henrik Stenson,16682756,G,6700,The Honda Classic,Golf,32.92
-G,Kiradech Aphibarnrat (16692723),Kiradech Aphibarnrat,16692723,G,6700,The Honda Classic,Golf,43.95
-G,Scott Piercy (16682757),Scott Piercy,16682757,G,6600,The Honda Classic,Golf,60.62
-G,Bronson Burgoon (16682758),Bronson Burgoon,16682758,G,6600,The Honda Classic,Golf,52.54
-G,Chesson Hadley (16682759),Chesson Hadley,16682759,G,6600,The Honda Classic,Golf,45.55
-G,Robby Shelton (16682760),Robby Shelton,16682760,G,6600,The Honda Classic,Golf,46.29
-G,Rafael Campos (16682761),Rafael Campos,16682761,G,6600,The Honda Classic,Golf,36.55
-G,Bo Hoag (16682762),Bo Hoag,16682762,G,6600,The Honda Classic,Golf,54.12
-G,Rob Oppenheim (16682763),Rob Oppenheim,16682763,G,6600,The Honda Classic,Golf,55.43
-G,Scott Brown (16682764),Scott Brown,16682764,G,6500,The Honda Classic,Golf,47.69
-G,Ryan Armour (16682765),Ryan Armour,16682765,G,6500,The Honda Classic,Golf,48.96
-G,Roger Sloan (16682766),Roger Sloan,16682766,G,6500,The Honda Classic,Golf,52.5
-G,Pat Perez (16682767),Pat Perez,16682767,G,6500,The Honda Classic,Golf,48.25
-G,J.B. Holmes (16682768),J.B. Holmes,16682768,G,6500,The Honda Classic,Golf,44.64
-G,Stewart Cink (16682769),Stewart Cink,16682769,G,6500,The Honda Classic,Golf,65.17
-G,Scott Stallings (16682770),Scott Stallings,16682770,G,6500,The Honda Classic,Golf,48.09
-G,Vaughn Taylor (16682771),Vaughn Taylor,16682771,G,6500,The Honda Classic,Golf,46.89
-G,Kramer Hickok (16682772),Kramer Hickok,16682772,G,6400,The Honda Classic,Golf,52.86
-G,Tyler McCumber (16682773),Tyler McCumber,16682773,G,6400,The Honda Classic,Golf,48
-G,Jamie Lovemark (16682774),Jamie Lovemark,16682774,G,6400,The Honda Classic,Golf,49.27
-G,Hudson Swafford (16682775),Hudson Swafford,16682775,G,6400,The Honda Classic,Golf,46.27
-G,Tyler Duncan (16682776),Tyler Duncan,16682776,G,6400,The Honda Classic,Golf,43.75
-G,Graeme McDowell (16682777),Graeme McDowell,16682777,G,6400,The Honda Classic,Golf,31.5
-G,Sam Ryder (16682778),Sam Ryder,16682778,G,6400,The Honda Classic,Golf,44.86
-G,Brian Stuard (16682779),Brian Stuard,16682779,G,6300,The Honda Classic,Golf,54.78
-G,Brice Garnett (16682780),Brice Garnett,16682780,G,6300,The Honda Classic,Golf,56.39
-G,C.T. Pan (16682781),C.T. Pan,16682781,G,6300,The Honda Classic,Golf,52.25
-G,Kevin Chappell (16682782),Kevin Chappell,16682782,G,6300,The Honda Classic,Golf,50.5
-G,Brian Gay (16682783),Brian Gay,16682783,G,6300,The Honda Classic,Golf,48.46
-G,Scott Harrington (16682784),Scott Harrington,16682784,G,6300,The Honda Classic,Golf,46.11
-G,Anirban Lahiri (16682785),Anirban Lahiri,16682785,G,6300,The Honda Classic,Golf,61.2
-G,Troy Merritt (16682786),Troy Merritt,16682786,G,6300,The Honda Classic,Golf,46.2
-G,Sean O'Hair (16682787),Sean O'Hair,16682787,G,6300,The Honda Classic,Golf,48
-G,Sung Kang (16682788),Sung Kang,16682788,G,6300,The Honda Classic,Golf,37.17
-G,Austin Cook (16682789),Austin Cook,16682789,G,6200,The Honda Classic,Golf,50.96
-G,Andrew Landry (16682790),Andrew Landry,16682790,G,6200,The Honda Classic,Golf,52.42
-G,Jim Herman (16682791),Jim Herman,16682791,G,6200,The Honda Classic,Golf,41.91
-G,Joseph Bramlett (16682792),Joseph Bramlett,16682792,G,6200,The Honda Classic,Golf,64.08
-G,Satoshi Kodaira (16682793),Satoshi Kodaira,16682793,G,6200,The Honda Classic,Golf,49.62
-G,Ryo Ishikawa (16682794),Ryo Ishikawa,16682794,G,6200,The Honda Classic,Golf,39
-G,Seung-Yul Noh (16682795),Seung-Yul Noh,16682795,G,6200,The Honda Classic,Golf,29.83
-G,Xinjun Zhang (16682796),Xinjun Zhang,16682796,G,6200,The Honda Classic,Golf,48.25
-G,Chase Seiffert (16682797),Chase Seiffert,16682797,G,6200,The Honda Classic,Golf,49.86
-G,Erik Compton (16692725),Erik Compton,16692725,G,6200,The Honda Classic,Golf,53.62
-G,Beau Hossler (16682798),Beau Hossler,16682798,G,6100,The Honda Classic,Golf,47.14
-G,Robert Streb (16682799),Robert Streb,16682799,G,6100,The Honda Classic,Golf,53.79
-G,Camilo Villegas (16682800),Camilo Villegas,16682800,G,6100,The Honda Classic,Golf,50.33
-G,J.J. Spaun (16682801),J.J. Spaun,16682801,G,6100,The Honda Classic,Golf,48.2
-G,Bo Van Pelt (16682802),Bo Van Pelt,16682802,G,6100,The Honda Classic,Golf,34.96
-G,David Hearn (16682803),David Hearn,16682803,G,6100,The Honda Classic,Golf,42.46
-G,Michael Gligic (16682804),Michael Gligic,16682804,G,6100,The Honda Classic,Golf,43.17
-G,K.J. Choi (16682805),K.J. Choi,16682805,G,6100,The Honda Classic,Golf,52.18
-G,William McGirt (16682806),William McGirt,16682806,G,6100,The Honda Classic,Golf,33
-G,Chase Koepka (16682807),Chase Koepka,16682807,G,6100,The Honda Classic,Golf,41.67
-G,Sebastian Cappelen (16692721),Sebastian Cappelen,16692721,G,6100,The Honda Classic,Golf,43.46
-G,D.J. Trahan (16692722),D.J. Trahan,16692722,G,6100,The Honda Classic,Golf,51.6
-G,Marcelo Rozo (16692724),Marcelo Rozo,16692724,G,6100,The Honda Classic,Golf,37.80
-G,Kelly Kraft (16682808),Kelly Kraft,16682808,G,6000,The Honda Classic,Golf,46.91
-G,Michael Kim (16682809),Michael Kim,16682809,G,6000,The Honda Classic,Golf,36.29
-G,Hank Lebioda (16682810),Hank Lebioda,16682810,G,6000,The Honda Classic,Golf,59.42
-G,Vijay Singh (16682811),Vijay Singh,16682811,G,6000,The Honda Classic,Golf,54.58
-G,Luke Donald (16682812),Luke Donald,16682812,G,6000,The Honda Classic,Golf,33.75
-G,Jimmy Walker (16682813),Jimmy Walker,16682813,G,6000,The Honda Classic,Golf,33.38
-G,Vincent Whaley (16682814),Vincent Whaley,16682814,G,6000,The Honda Classic,Golf,57.61
-G,Hunter Mahan (16682815),Hunter Mahan,16682815,G,6000,The Honda Classic,Golf,36.31
-G,Martin Trainer (16682816),Martin Trainer,16682816,G,6000,The Honda Classic,Golf,29.42
-G,Alan Morin (16682817),Alan Morin,16682817,G,6000,The Honda Classic,Golf,0
-G,Kamaiu Johnson (16682818),Kamaiu Johnson,16682818,G,6000,The Honda Classic,Golf,3.75
-G,Zach Zaback (16692726),Zach Zaback,16692726,G,6000,The Honda Classic,Golf,37.92
-G,Stephen Stallings Jr. (16692727),Stephen Stallings Jr.,16692727,G,6000,The Honda Classic,Golf,51.25
+G,Dustin Johnson (16763519),Dustin Johnson,16763519,G,11500,World Golf Championships-Dell Technologies Match Play,Golf,92.75
+G,Justin Thomas (16763520),Justin Thomas,16763520,G,11200,World Golf Championships-Dell Technologies Match Play,Golf,89.96
+G,Bryson DeChambeau (16763521),Bryson DeChambeau,16763521,G,10900,World Golf Championships-Dell Technologies Match Play,Golf,92.28
+G,Jon Rahm (16763522),Jon Rahm,16763522,G,10700,World Golf Championships-Dell Technologies Match Play,Golf,86.55
+G,Collin Morikawa (16763523),Collin Morikawa,16763523,G,10400,World Golf Championships-Dell Technologies Match Play,Golf,73.41
+G,Rory McIlroy (16763524),Rory McIlroy,16763524,G,10200,World Golf Championships-Dell Technologies Match Play,Golf,75.73
+G,Xander Schauffele (16763525),Xander Schauffele,16763525,G,10000,World Golf Championships-Dell Technologies Match Play,Golf,89.45
+G,Patrick Cantlay (16763526),Patrick Cantlay,16763526,G,9800,World Golf Championships-Dell Technologies Match Play,Golf,85.8
+G,Patrick Reed (16763527),Patrick Reed,16763527,G,9600,World Golf Championships-Dell Technologies Match Play,Golf,77.35
+G,Viktor Hovland (16763528),Viktor Hovland,16763528,G,9400,World Golf Championships-Dell Technologies Match Play,Golf,84.29
+G,Jordan Spieth (16763529),Jordan Spieth,16763529,G,9300,World Golf Championships-Dell Technologies Match Play,Golf,66.67
+G,Tony Finau (16763530),Tony Finau,16763530,G,9200,World Golf Championships-Dell Technologies Match Play,Golf,87.5
+G,Webb Simpson (16763531),Webb Simpson,16763531,G,9100,World Golf Championships-Dell Technologies Match Play,Golf,82.95
+G,Daniel Berger (16763532),Daniel Berger,16763532,G,9000,World Golf Championships-Dell Technologies Match Play,Golf,84.6
+G,Paul Casey (16763533),Paul Casey,16763533,G,8900,World Golf Championships-Dell Technologies Match Play,Golf,79.41
+G,Sungjae Im (16763534),Sungjae Im,16763534,G,8800,World Golf Championships-Dell Technologies Match Play,Golf,79.44
+G,Matthew Fitzpatrick (16763535),Matthew Fitzpatrick,16763535,G,8700,World Golf Championships-Dell Technologies Match Play,Golf,66.41
+G,Tyrrell Hatton (16763536),Tyrrell Hatton,16763536,G,8600,World Golf Championships-Dell Technologies Match Play,Golf,75.17
+G,Cameron Smith (16763537),Cameron Smith,16763537,G,8500,World Golf Championships-Dell Technologies Match Play,Golf,84.41
+G,Jason Day (16763538),Jason Day,16763538,G,8400,World Golf Championships-Dell Technologies Match Play,Golf,56.77
+G,Sergio Garcia (16763539),Sergio Garcia,16763539,G,8300,World Golf Championships-Dell Technologies Match Play,Golf,71
+G,Hideki Matsuyama (16763540),Hideki Matsuyama,16763540,G,8200,World Golf Championships-Dell Technologies Match Play,Golf,67.64
+G,Louis Oosthuizen (16763541),Louis Oosthuizen,16763541,G,8100,World Golf Championships-Dell Technologies Match Play,Golf,74.61
+G,Joaquin Niemann (16763542),Joaquin Niemann,16763542,G,8000,World Golf Championships-Dell Technologies Match Play,Golf,87.17
+G,Scottie Scheffler (16763543),Scottie Scheffler,16763543,G,7900,World Golf Championships-Dell Technologies Match Play,Golf,68.73
+G,Will Zalatoris (16763544),Will Zalatoris,16763544,G,7900,World Golf Championships-Dell Technologies Match Play,Golf,88.57
+G,Tommy Fleetwood (16763545),Tommy Fleetwood,16763545,G,7800,World Golf Championships-Dell Technologies Match Play,Golf,64.41
+G,Corey Conners (16763546),Corey Conners,16763546,G,7800,World Golf Championships-Dell Technologies Match Play,Golf,73.04
+G,Abraham Ancer (16763547),Abraham Ancer,16763547,G,7700,World Golf Championships-Dell Technologies Match Play,Golf,74.54
+G,Lee Westwood (16763548),Lee Westwood,16763548,G,7700,World Golf Championships-Dell Technologies Match Play,Golf,56.64
+G,Christiaan Bezuidenhout (16763549),Christiaan Bezuidenhout,16763549,G,7600,World Golf Championships-Dell Technologies Match Play,Golf,60.62
+G,Kevin Kisner (16763550),Kevin Kisner,16763550,G,7600,World Golf Championships-Dell Technologies Match Play,Golf,65.7
+G,Jason Kokrak (16763551),Jason Kokrak,16763551,G,7500,World Golf Championships-Dell Technologies Match Play,Golf,69.89
+G,Russell Henley (16763552),Russell Henley,16763552,G,7500,World Golf Championships-Dell Technologies Match Play,Golf,72.04
+G,Max Homa (16763553),Max Homa,16763553,G,7400,World Golf Championships-Dell Technologies Match Play,Golf,67.04
+G,Bubba Watson (16763554),Bubba Watson,16763554,G,7400,World Golf Championships-Dell Technologies Match Play,Golf,59.28
+G,Si Woo Kim (16763555),Si Woo Kim,16763555,G,7300,World Golf Championships-Dell Technologies Match Play,Golf,61.37
+G,Harris English (16763556),Harris English,16763556,G,7300,World Golf Championships-Dell Technologies Match Play,Golf,74.54
+G,Brian Harman (16763557),Brian Harman,16763557,G,7200,World Golf Championships-Dell Technologies Match Play,Golf,75.64
+G,Billy Horschel (16763558),Billy Horschel,16763558,G,7200,World Golf Championships-Dell Technologies Match Play,Golf,70.58
+G,Kevin Na (16763559),Kevin Na,16763559,G,7100,World Golf Championships-Dell Technologies Match Play,Golf,66.96
+G,Shane Lowry (16763560),Shane Lowry,16763560,G,7100,World Golf Championships-Dell Technologies Match Play,Golf,57.65
+G,Matt Wallace (16763561),Matt Wallace,16763561,G,7000,World Golf Championships-Dell Technologies Match Play,Golf,52.61
+G,Ryan Palmer (16763562),Ryan Palmer,16763562,G,7000,World Golf Championships-Dell Technologies Match Play,Golf,84.4
+G,Lanto Griffin (16763563),Lanto Griffin,16763563,G,6900,World Golf Championships-Dell Technologies Match Play,Golf,66.54
+G,Matthew Wolff (16763564),Matthew Wolff,16763564,G,6900,World Golf Championships-Dell Technologies Match Play,Golf,62.65
+G,Carlos Ortiz (16763565),Carlos Ortiz,16763565,G,6800,World Golf Championships-Dell Technologies Match Play,Golf,74.21
+G,Marc Leishman (16763566),Marc Leishman,16763566,G,6800,World Golf Championships-Dell Technologies Match Play,Golf,57.12
+G,Ian Poulter (16763567),Ian Poulter,16763567,G,6700,World Golf Championships-Dell Technologies Match Play,Golf,48
+G,Matt Kuchar (16763568),Matt Kuchar,16763568,G,6700,World Golf Championships-Dell Technologies Match Play,Golf,51.59
+G,Victor Perez (16763569),Victor Perez,16763569,G,6600,World Golf Championships-Dell Technologies Match Play,Golf,56.56
+G,Talor Gooch (16763570),Talor Gooch,16763570,G,6600,World Golf Championships-Dell Technologies Match Play,Golf,62.93
+G,Robert Macintyre (16763571),Robert Macintyre,16763571,G,6500,World Golf Championships-Dell Technologies Match Play,Golf,58.29
+G,Dylan Frittelli (16763572),Dylan Frittelli,16763572,G,6500,World Golf Championships-Dell Technologies Match Play,Golf,49.12
+G,Brendon Todd (16763573),Brendon Todd,16763573,G,6400,World Golf Championships-Dell Technologies Match Play,Golf,66.71
+G,Erik Van Rooyen (16763574),Erik Van Rooyen,16763574,G,6400,World Golf Championships-Dell Technologies Match Play,Golf,47.59
+G,J.T. Poston (16763575),J.T. Poston,16763575,G,6300,World Golf Championships-Dell Technologies Match Play,Golf,55.03
+G,Kevin Streelman (16763576),Kevin Streelman,16763576,G,6300,World Golf Championships-Dell Technologies Match Play,Golf,62.33
+G,Antoine Rozner (16763577),Antoine Rozner,16763577,G,6200,World Golf Championships-Dell Technologies Match Play,Golf,84.38
+G,Bernd Wiesberger (16763578),Bernd Wiesberger,16763578,G,6200,World Golf Championships-Dell Technologies Match Play,Golf,62
+G,Sebastian Munoz (16763579),Sebastian Munoz,16763579,G,6100,World Golf Championships-Dell Technologies Match Play,Golf,62.93
+G,Mackenzie Hughes (16763580),Mackenzie Hughes,16763580,G,6100,World Golf Championships-Dell Technologies Match Play,Golf,61.19
+G,Adam Long (16763581),Adam Long,16763581,G,6000,World Golf Championships-Dell Technologies Match Play,Golf,56.63
+G,Andy Sullivan (16763582),Andy Sullivan,16763582,G,6000,World Golf Championships-Dell Technologies Match Play,Golf,49.5
