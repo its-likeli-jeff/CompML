@@ -1,5 +1,5 @@
 #updated 2021
-pg <- read.csv("~/pCloudDrive/DropboxFolder2/DK/PGA data/lotsPGA.csv", stringsAsFactors = FALSE, skipNul=TRUE)
+pg <- read.csv("~/Downloads/lotsPGA_git2.csv", stringsAsFactors = FALSE, skipNul=TRUE)
 pgorig <- pg
 #pg <- pg[,-1]
 recpn <- c("Greens in Regulation Percentage", "Driving Accuracy Percentage", 
@@ -40,7 +40,7 @@ pg2[, GIRRank := frank(-GIR, ties.method="min"), by=list(Date, Tournament.Name)]
 pg2[, DrvAccRank := frank(-DRVGACC, ties.method="min"), by=list(Date, Tournament.Name)]
 pg2[, DrvDistRank := frank(-DRVDIST, ties.method="min"), by=list(Date, Tournament.Name)]
 pg2[, StrGainRank := frank(-STROKESGAINEDPUTTING, ties.method="min"), by=list(Date, Tournament.Name)]
-pg2$Date <- as.Date(pg2$Date, format="%m/%d/%Y")
+pg2$Date <- as.Date(pg2$Date)
 pg3 <- pg2
 
 nm <- colnames(pg2)[40:44]
