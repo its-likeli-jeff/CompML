@@ -1,133 +1,122 @@
 Position,Name + ID,Name,ID,Roster Position,Salary,Game Info,TeamAbbrev,AvgPointsPerGame
-G,Thomas Pieters (16763583),Thomas Pieters,16763583,G,11100,Corales Puntacana Resort & Club Championship,Golf,69.58
-G,Thomas Detry (16763584),Thomas Detry,16763584,G,10800,Corales Puntacana Resort & Club Championship,Golf,60.93
-G,Emiliano Grillo (16763585),Emiliano Grillo,16763585,G,10500,Corales Puntacana Resort & Club Championship,Golf,67.84
-G,Charley Hoffman (16763586),Charley Hoffman,16763586,G,10200,Corales Puntacana Resort & Club Championship,Golf,65.31
-G,Charles Howell III (16763587),Charles Howell III,16763587,G,10000,Corales Puntacana Resort & Club Championship,Golf,56.42
-G,Jhonattan Vegas (16763588),Jhonattan Vegas,16763588,G,9800,Corales Puntacana Resort & Club Championship,Golf,59.04
-G,Danny Willett (16763589),Danny Willett,16763589,G,9600,Corales Puntacana Resort & Club Championship,Golf,49.56
-G,Nate Lashley (16763590),Nate Lashley,16763590,G,9500,Corales Puntacana Resort & Club Championship,Golf,57.7
-G,Brandon Wu (16763591),Brandon Wu,16763591,G,9400,Corales Puntacana Resort & Club Championship,Golf,75.79
-G,Tom Lewis (16763592),Tom Lewis,16763592,G,9300,Corales Puntacana Resort & Club Championship,Golf,39.08
-G,Brandon Hagy (16763593),Brandon Hagy,16763593,G,9200,Corales Puntacana Resort & Club Championship,Golf,47.62
-G,Lee Hodges (16763594),Lee Hodges,16763594,G,9100,Corales Puntacana Resort & Club Championship,Golf,78.11
-G,Sam Ryder (16763595),Sam Ryder,16763595,G,9000,Corales Puntacana Resort & Club Championship,Golf,47.37
-G,Luke List (16763596),Luke List,16763596,G,8900,Corales Puntacana Resort & Club Championship,Golf,54.68
-G,Sepp Straka (16763597),Sepp Straka,16763597,G,8800,Corales Puntacana Resort & Club Championship,Golf,63.41
-G,Justin Suh (16763598),Justin Suh,16763598,G,8700,Corales Puntacana Resort & Club Championship,Golf,75.6
-G,Will Gordon (16763599),Will Gordon,16763599,G,8600,Corales Puntacana Resort & Club Championship,Golf,57.53
-G,Rafa Cabrera Bello (16763600),Rafa Cabrera Bello,16763600,G,8500,Corales Puntacana Resort & Club Championship,Golf,50.21
-G,Roger Sloan (16763601),Roger Sloan,16763601,G,8400,Corales Puntacana Resort & Club Championship,Golf,54.04
-G,Patrick Rodgers (16763602),Patrick Rodgers,16763602,G,8300,Corales Puntacana Resort & Club Championship,Golf,49.68
-G,Stephan Jaeger (16763603),Stephan Jaeger,16763603,G,8200,Corales Puntacana Resort & Club Championship,Golf,70.5
-G,Taylor Pendrith (16763604),Taylor Pendrith,16763604,G,8100,Corales Puntacana Resort & Club Championship,Golf,75.37
-G,Brice Garnett (16763605),Brice Garnett,16763605,G,8000,Corales Puntacana Resort & Club Championship,Golf,57.13
-G,Chase Seiffert (16763606),Chase Seiffert,16763606,G,8000,Corales Puntacana Resort & Club Championship,Golf,52.57
-G,Adam Schenk (16763607),Adam Schenk,16763607,G,7900,Corales Puntacana Resort & Club Championship,Golf,52.28
-G,Tyler McCumber (16763608),Tyler McCumber,16763608,G,7900,Corales Puntacana Resort & Club Championship,Golf,48.87
-G,Greyson Sigg (16763609),Greyson Sigg,16763609,G,7800,Corales Puntacana Resort & Club Championship,Golf,77.5
-G,Peter Uihlein (16763610),Peter Uihlein,16763610,G,7800,Corales Puntacana Resort & Club Championship,Golf,63.9
-G,Joel Dahmen (16763611),Joel Dahmen,16763611,G,7700,Corales Puntacana Resort & Club Championship,Golf,52.04
-G,J.B. Holmes (16763612),J.B. Holmes,16763612,G,7700,Corales Puntacana Resort & Club Championship,Golf,46.75
-G,Camilo Villegas (16763613),Camilo Villegas,16763613,G,7600,Corales Puntacana Resort & Club Championship,Golf,51.71
-G,Scott Harrington (16763614),Scott Harrington,16763614,G,7600,Corales Puntacana Resort & Club Championship,Golf,46.73
-G,Padraig Harrington (16763615),Padraig Harrington,16763615,G,7500,Corales Puntacana Resort & Club Championship,Golf,51.22
-G,Fabrizio Zanotti (16763616),Fabrizio Zanotti,16763616,G,7500,Corales Puntacana Resort & Club Championship,Golf,68.75
-G,Grayson Murray (16763617),Grayson Murray,16763617,G,7500,Corales Puntacana Resort & Club Championship,Golf,40.29
-G,Lucas Herbert (16763618),Lucas Herbert,16763618,G,7400,Corales Puntacana Resort & Club Championship,Golf,54.5
-G,Ted Potter Jr. (16763619),Ted Potter Jr.,16763619,G,7400,Corales Puntacana Resort & Club Championship,Golf,43.54
-G,Pat Perez (16763620),Pat Perez,16763620,G,7400,Corales Puntacana Resort & Club Championship,Golf,49.06
-G,Tim Wilkinson (16763621),Tim Wilkinson,16763621,G,7300,Corales Puntacana Resort & Club Championship,Golf,49.31
-G,Rob Oppenheim (16763622),Rob Oppenheim,16763622,G,7300,Corales Puntacana Resort & Club Championship,Golf,52.93
-G,Aaron Baddeley (16763623),Aaron Baddeley,16763623,G,7300,Corales Puntacana Resort & Club Championship,Golf,42.04
-G,Kristoffer Ventura (16763624),Kristoffer Ventura,16763624,G,7300,Corales Puntacana Resort & Club Championship,Golf,59.26
-G,Bronson Burgoon (16763625),Bronson Burgoon,16763625,G,7200,Corales Puntacana Resort & Club Championship,Golf,52.42
-G,Scott Brown (16763626),Scott Brown,16763626,G,7200,Corales Puntacana Resort & Club Championship,Golf,46.64
-G,Vincent Whaley (16763627),Vincent Whaley,16763627,G,7200,Corales Puntacana Resort & Club Championship,Golf,57.77
-G,Hudson Swafford (16763628),Hudson Swafford,16763628,G,7200,Corales Puntacana Resort & Club Championship,Golf,44.72
-G,Joseph Bramlett (16763629),Joseph Bramlett,16763629,G,7100,Corales Puntacana Resort & Club Championship,Golf,61.36
-G,Kelly Kraft (16763630),Kelly Kraft,16763630,G,7100,Corales Puntacana Resort & Club Championship,Golf,45.17
-G,Graeme McDowell (16763631),Graeme McDowell,16763631,G,7100,Corales Puntacana Resort & Club Championship,Golf,30.62
-G,Beau Hossler (16763632),Beau Hossler,16763632,G,7100,Corales Puntacana Resort & Club Championship,Golf,47.43
-G,Xinjun Zhang (16763633),Xinjun Zhang,16763633,G,7000,Corales Puntacana Resort & Club Championship,Golf,47
-G,Josh Teater (16763634),Josh Teater,16763634,G,7000,Corales Puntacana Resort & Club Championship,Golf,62.59
-G,D.J. Trahan (16763635),D.J. Trahan,16763635,G,7000,Corales Puntacana Resort & Club Championship,Golf,51.64
-G,Tyler Duncan (16763636),Tyler Duncan,16763636,G,7000,Corales Puntacana Resort & Club Championship,Golf,42.65
-G,Kiradech Aphibarnrat (16763637),Kiradech Aphibarnrat,16763637,G,7000,Corales Puntacana Resort & Club Championship,Golf,44.14
-G,Roberto Castro (16763638),Roberto Castro,16763638,G,6900,Corales Puntacana Resort & Club Championship,Golf,40.33
-G,Matthys Daffue (16763639),Matthys Daffue,16763639,G,6900,Corales Puntacana Resort & Club Championship,Golf,56.9
-G,Seamus Power (16763640),Seamus Power,16763640,G,6900,Corales Puntacana Resort & Club Championship,Golf,35.55
-G,Ryan Brehm (16763641),Ryan Brehm,16763641,G,6900,Corales Puntacana Resort & Club Championship,Golf,60.89
-G,Vaughn Taylor (16763642),Vaughn Taylor,16763642,G,6900,Corales Puntacana Resort & Club Championship,Golf,45.07
-G,Satoshi Kodaira (16763643),Satoshi Kodaira,16763643,G,6800,Corales Puntacana Resort & Club Championship,Golf,50.04
-G,Alex Smalley (16763644),Alex Smalley,16763644,G,6800,Corales Puntacana Resort & Club Championship,Golf,53.5
-G,Robby Shelton (16763645),Robby Shelton,16763645,G,6800,Corales Puntacana Resort & Club Championship,Golf,44.53
-G,Chesson Hadley (16763646),Chesson Hadley,16763646,G,6800,Corales Puntacana Resort & Club Championship,Golf,43.04
-G,Andy Ogletree (16763647),Andy Ogletree,16763647,G,6800,Corales Puntacana Resort & Club Championship,Golf,41.4
-G,Wes Roach (16763648),Wes Roach,16763648,G,6800,Corales Puntacana Resort & Club Championship,Golf,63.18
-G,Ben Martin (16763649),Ben Martin,16763649,G,6700,Corales Puntacana Resort & Club Championship,Golf,64.68
-G,Hank Lebioda (16763650),Hank Lebioda,16763650,G,6700,Corales Puntacana Resort & Club Championship,Golf,56.42
-G,Troy Merritt (16763651),Troy Merritt,16763651,G,6700,Corales Puntacana Resort & Club Championship,Golf,44.81
-G,Paul Barjon (16763652),Paul Barjon,16763652,G,6700,Corales Puntacana Resort & Club Championship,Golf,66.5
-G,J.J. Spaun (16763653),J.J. Spaun,16763653,G,6700,Corales Puntacana Resort & Club Championship,Golf,44.96
-G,Rafael Campos (16763654),Rafael Campos,16763654,G,6700,Corales Puntacana Resort & Club Championship,Golf,35.36
-G,Zack Sucher (16763655),Zack Sucher,16763655,G,6600,Corales Puntacana Resort & Club Championship,Golf,45.19
-G,Bill Haas (16763656),Bill Haas,16763656,G,6600,Corales Puntacana Resort & Club Championship,Golf,42.11
-G,Brian Stuard (16763657),Brian Stuard,16763657,G,6600,Corales Puntacana Resort & Club Championship,Golf,53.12
-G,George McNeill (16763658),George McNeill,16763658,G,6600,Corales Puntacana Resort & Club Championship,Golf,47.62
-G,Rhein Gibson (16763659),Rhein Gibson,16763659,G,6600,Corales Puntacana Resort & Club Championship,Golf,39.62
-G,Luke Donald (16763660),Luke Donald,16763660,G,6600,Corales Puntacana Resort & Club Championship,Golf,33.59
-G,David Lingmerth (16763661),David Lingmerth,16763661,G,6600,Corales Puntacana Resort & Club Championship,Golf,49.21
-G,Jonathan Byrd (16763662),Jonathan Byrd,16763662,G,6500,Corales Puntacana Resort & Club Championship,Golf,44.62
-G,Fabian Gomez (16763663),Fabian Gomez,16763663,G,6500,Corales Puntacana Resort & Club Championship,Golf,41.38
-G,K.J. Choi (16763664),K.J. Choi,16763664,G,6500,Corales Puntacana Resort & Club Championship,Golf,49.77
-G,Nelson Ledesma (16763665),Nelson Ledesma,16763665,G,6500,Corales Puntacana Resort & Club Championship,Golf,50.83
-G,Matt Every (16763666),Matt Every,16763666,G,6500,Corales Puntacana Resort & Club Championship,Golf,22.92
-G,Michael Gligic (16763667),Michael Gligic,16763667,G,6500,Corales Puntacana Resort & Club Championship,Golf,41.62
-G,Ryan Blaum (16763668),Ryan Blaum,16763668,G,6500,Corales Puntacana Resort & Club Championship,Golf,49
-G,David Hearn (16763669),David Hearn,16763669,G,6400,Corales Puntacana Resort & Club Championship,Golf,41.46
-G,Shawn Stefani (16763670),Shawn Stefani,16763670,G,6400,Corales Puntacana Resort & Club Championship,Golf,39.89
-G,Sebastian Cappelen (16763671),Sebastian Cappelen,16763671,G,6400,Corales Puntacana Resort & Club Championship,Golf,42.08
-G,Retief Goosen (16763672),Retief Goosen,16763672,G,6400,Corales Puntacana Resort & Club Championship,Golf,67.57
-G,Michael Kim (16763673),Michael Kim,16763673,G,6400,Corales Puntacana Resort & Club Championship,Golf,35.57
-G,John Senden (16763674),John Senden,16763674,G,6400,Corales Puntacana Resort & Club Championship,Golf,34.5
-G,Alex Cejka (16763675),Alex Cejka,16763675,G,6400,Corales Puntacana Resort & Club Championship,Golf,34.45
-G,Ben Taylor (16763676),Ben Taylor,16763676,G,6400,Corales Puntacana Resort & Club Championship,Golf,43.77
-G,Sang-Moon Bae (16763677),Sang-Moon Bae,16763677,G,6300,Corales Puntacana Resort & Club Championship,Golf,55
-G,Nick Watney (16763678),Nick Watney,16763678,G,6300,Corales Puntacana Resort & Club Championship,Golf,31.18
-G,Greg Chalmers (16763679),Greg Chalmers,16763679,G,6300,Corales Puntacana Resort & Club Championship,Golf,46.12
-G,Mark Anderson (16763680),Mark Anderson,16763680,G,6300,Corales Puntacana Resort & Club Championship,Golf,40.17
-G,Chris Baker (16763681),Chris Baker,16763681,G,6300,Corales Puntacana Resort & Club Championship,Golf,37.89
-G,Johnson Wagner (16763682),Johnson Wagner,16763682,G,6300,Corales Puntacana Resort & Club Championship,Golf,40.69
-G,Ricky Barnes (16763683),Ricky Barnes,16763683,G,6300,Corales Puntacana Resort & Club Championship,Golf,54.4
-G,Davis Love III (16763684),Davis Love III,16763684,G,6300,Corales Puntacana Resort & Club Championship,Golf,40.5
-G,Michael Gellerman (16763685),Michael Gellerman,16763685,G,6200,Corales Puntacana Resort & Club Championship,Golf,30.65
-G,Bo Van Pelt (16763686),Bo Van Pelt,16763686,G,6200,Corales Puntacana Resort & Club Championship,Golf,33.27
-G,Miguel Angel Jimenez (16763687),Miguel Angel Jimenez,16763687,G,6200,Corales Puntacana Resort & Club Championship,Golf,65.17
-G,Andrew Yun (16763688),Andrew Yun,16763688,G,6200,Corales Puntacana Resort & Club Championship,Golf,0
-G,Robert Garrigus (16763689),Robert Garrigus,16763689,G,6200,Corales Puntacana Resort & Club Championship,Golf,34.56
-G,Arjun Atwal (16763690),Arjun Atwal,16763690,G,6200,Corales Puntacana Resort & Club Championship,Golf,37.33
-G,Martin Trainer (16763691),Martin Trainer,16763691,G,6200,Corales Puntacana Resort & Club Championship,Golf,28.08
-G,J.J. Henry (16763692),J.J. Henry,16763692,G,6200,Corales Puntacana Resort & Club Championship,Golf,29.17
-G,Chris Wiatr (16763693),Chris Wiatr,16763693,G,6200,Corales Puntacana Resort & Club Championship,Golf,27
-G,Eric Cole (16763694),Eric Cole,16763694,G,6100,Corales Puntacana Resort & Club Championship,Golf,63.47
-G,Dominic Bozzelli (16763695),Dominic Bozzelli,16763695,G,6100,Corales Puntacana Resort & Club Championship,Golf,32
-G,Carl Pettersson (16763696),Carl Pettersson,16763696,G,6100,Corales Puntacana Resort & Club Championship,Golf,20.25
-G,Richard S Johnson (16763697),Richard S Johnson,16763697,G,6100,Corales Puntacana Resort & Club Championship,Golf,36
-G,Rhadames Pena (16763698),Rhadames Pena,16763698,G,6100,Corales Puntacana Resort & Club Championship,Golf,0
-G,Juan Jose Guerra (16763699),Juan Jose Guerra,16763699,G,6100,Corales Puntacana Resort & Club Championship,Golf,33.5
-G,John Merrick (16763700),John Merrick,16763700,G,6100,Corales Puntacana Resort & Club Championship,Golf,20.75
-G,Willy Pumarol (16763701),Willy Pumarol,16763701,G,6100,Corales Puntacana Resort & Club Championship,Golf,67
-G,Omar Uresti (16763702),Omar Uresti,16763702,G,6100,Corales Puntacana Resort & Club Championship,Golf,27.75
-G,Dicky Pride (16763703),Dicky Pride,16763703,G,6100,Corales Puntacana Resort & Club Championship,Golf,52.44
-G,Parker McLachlin (16763704),Parker McLachlin,16763704,G,6000,Corales Puntacana Resort & Club Championship,Golf,21.88
-G,Hunter Mahan (16763705),Hunter Mahan,16763705,G,6000,Corales Puntacana Resort & Club Championship,Golf,35.29
-G,Daniel Chopra (16763706),Daniel Chopra,16763706,G,6000,Corales Puntacana Resort & Club Championship,Golf,21
-G,Ted Purdy (16763707),Ted Purdy,16763707,G,6000,Corales Puntacana Resort & Club Championship,Golf,26.5
-G,Cledy Cordoba (16763708),Cledy Cordoba,16763708,G,6000,Corales Puntacana Resort & Club Championship,Golf,0
-G,Brendon De Jonge (16763709),Brendon De Jonge,16763709,G,6000,Corales Puntacana Resort & Club Championship,Golf,26.25
-G,John Rollins (16763710),John Rollins,16763710,G,6000,Corales Puntacana Resort & Club Championship,Golf,20
-G,Manuel Relancio (16763711),Manuel Relancio,16763711,G,6000,Corales Puntacana Resort & Club Championship,Golf,0
-G,Justin McCarraher (16763712),Justin McCarraher,16763712,G,6000,Corales Puntacana Resort & Club Championship,Golf,0
-G,Hiram Silfa (16763713),Hiram Silfa,16763713,G,6000,Corales Puntacana Resort & Club Championship,Golf,36.5
-G,Alex Beach (16763714),Alex Beach,16763714,G,6000,Corales Puntacana Resort & Club Championship,Golf,0
+G,Jhonattan Vegas (21777638),Jhonattan Vegas,21777638,G,10600,Corales Puntacana Championship,Golf,66.08
+G,Sahith Theegala (21777639),Sahith Theegala,21777639,G,10400,Corales Puntacana Championship,Golf,64.2
+G,Joel Dahmen (21777640),Joel Dahmen,21777640,G,10200,Corales Puntacana Championship,Golf,70
+G,Nate Lashley (21777641),Nate Lashley,21777641,G,10100,Corales Puntacana Championship,Golf,57.23
+G,Mark Hubbard (21777642),Mark Hubbard,21777642,G,10000,Corales Puntacana Championship,Golf,72.2
+G,Matthias Schwab (21777643),Matthias Schwab,21777643,G,9800,Corales Puntacana Championship,Golf,56.23
+G,Brice Garnett (21777644),Brice Garnett,21777644,G,9600,Corales Puntacana Championship,Golf,49.04
+G,Adam Svensson (21777645),Adam Svensson,21777645,G,9400,Corales Puntacana Championship,Golf,57.39
+G,Kramer Hickok (21777646),Kramer Hickok,21777646,G,9300,Corales Puntacana Championship,Golf,52.04
+G,Thomas Detry (21777647),Thomas Detry,21777647,G,9200,Corales Puntacana Championship,Golf,72.89
+G,Doc Redman (21777648),Doc Redman,21777648,G,9100,Corales Puntacana Championship,Golf,53.43
+G,Alex Smalley (21777649),Alex Smalley,21777649,G,9000,Corales Puntacana Championship,Golf,57.18
+G,Graeme McDowell (21777650),Graeme McDowell,21777650,G,8900,Corales Puntacana Championship,Golf,46.65
+G,Brian Stuard (21777651),Brian Stuard,21777651,G,8800,Corales Puntacana Championship,Golf,49.68
+G,Patrick Rodgers (21777652),Patrick Rodgers,21777652,G,8700,Corales Puntacana Championship,Golf,53.85
+G,Rasmus Hojgaard (21777653),Rasmus Hojgaard,21777653,G,8600,Corales Puntacana Championship,Golf,69.07
+G,Nicolai Hojgaard (21777654),Nicolai Hojgaard,21777654,G,8500,Corales Puntacana Championship,Golf,47.42
+G,Peter Uihlein (21777655),Peter Uihlein,21777655,G,8400,Corales Puntacana Championship,Golf,59
+G,Greyson Sigg (21777656),Greyson Sigg,21777656,G,8300,Corales Puntacana Championship,Golf,58.86
+G,Danny Willett (21777657),Danny Willett,21777657,G,8200,Corales Puntacana Championship,Golf,46.46
+G,Emiliano Grillo (21777658),Emiliano Grillo,21777658,G,8100,Corales Puntacana Championship,Golf,50.29
+G,Aaron Rai (21777659),Aaron Rai,21777659,G,8000,Corales Puntacana Championship,Golf,57.82
+G,Nick Taylor (21777660),Nick Taylor,21777660,G,7900,Corales Puntacana Championship,Golf,59.35
+G,David Lipsky (21777661),David Lipsky,21777661,G,7900,Corales Puntacana Championship,Golf,48.89
+G,Austin Smotherman (21777662),Austin Smotherman,21777662,G,7800,Corales Puntacana Championship,Golf,55.45
+G,Chad Ramey (21777663),Chad Ramey,21777663,G,7800,Corales Puntacana Championship,Golf,54.36
+G,Martin Kaymer (21777664),Martin Kaymer,21777664,G,7700,Corales Puntacana Championship,Golf,47
+G,Hao-Tong Li (21777665),Hao-Tong Li,21777665,G,7700,Corales Puntacana Championship,Golf,77.5
+G,Hudson Swafford (21777666),Hudson Swafford,21777666,G,7600,Corales Puntacana Championship,Golf,56.75
+G,Rafa Cabrera Bello (21777667),Rafa Cabrera Bello,21777667,G,7600,Corales Puntacana Championship,Golf,62.12
+G,Tyler Duncan (21777668),Tyler Duncan,21777668,G,7500,Corales Puntacana Championship,Golf,58.54
+G,Nick Hardy (21777669),Nick Hardy,21777669,G,7500,Corales Puntacana Championship,Golf,53.05
+G,Kurt Kitayama (21777670),Kurt Kitayama,21777670,G,7500,Corales Puntacana Championship,Golf,49.82
+G,Brandon Wu (21777671),Brandon Wu,21777671,G,7400,Corales Puntacana Championship,Golf,46.15
+G,Victor Perez (21777672),Victor Perez,21777672,G,7400,Corales Puntacana Championship,Golf,60.67
+G,Chase Seiffert (21777673),Chase Seiffert,21777673,G,7400,Corales Puntacana Championship,Golf,58
+G,John Huh (21777674),John Huh,21777674,G,7300,Corales Puntacana Championship,Golf,55.75
+G,Hank Lebioda (21777675),Hank Lebioda,21777675,G,7300,Corales Puntacana Championship,Golf,43.64
+G,Adam Schenk (21777676),Adam Schenk,21777676,G,7300,Corales Puntacana Championship,Golf,44.8
+G,Wyndham Clark (21777677),Wyndham Clark,21777677,G,7300,Corales Puntacana Championship,Golf,52.08
+G,Vaughn Taylor (21777678),Vaughn Taylor,21777678,G,7200,Corales Puntacana Championship,Golf,53.94
+G,Cameron Percy (21777679),Cameron Percy,21777679,G,7200,Corales Puntacana Championship,Golf,49
+G,Ben Kohles (21777680),Ben Kohles,21777680,G,7200,Corales Puntacana Championship,Golf,55.5
+G,Kyle Stanley (21777681),Kyle Stanley,21777681,G,7200,Corales Puntacana Championship,Golf,38.5
+G,Callum Tarren (21777682),Callum Tarren,21777682,G,7100,Corales Puntacana Championship,Golf,47.5
+G,Scott Brown (21777683),Scott Brown,21777683,G,7100,Corales Puntacana Championship,Golf,62.67
+G,Hayden Buckley (21777684),Hayden Buckley,21777684,G,7100,Corales Puntacana Championship,Golf,53.61
+G,Kevin Chappell (21777685),Kevin Chappell,21777685,G,7100,Corales Puntacana Championship,Golf,47.39
+G,Dylan Wu (21777686),Dylan Wu,21777686,G,7000,Corales Puntacana Championship,Golf,53
+G,Stephan Jaeger (21777687),Stephan Jaeger,21777687,G,7000,Corales Puntacana Championship,Golf,45.57
+G,Max McGreevy (21777688),Max McGreevy,21777688,G,7000,Corales Puntacana Championship,Golf,51.96
+G,Ryan Armour (21777689),Ryan Armour,21777689,G,7000,Corales Puntacana Championship,Golf,47.12
+G,Bill Haas (21777690),Bill Haas,21777690,G,7000,Corales Puntacana Championship,Golf,51
+G,Kiradech Aphibarnrat (21777691),Kiradech Aphibarnrat,21777691,G,6900,Corales Puntacana Championship,Golf,46.65
+G,Andrew Novak (21777692),Andrew Novak,21777692,G,6900,Corales Puntacana Championship,Golf,50.54
+G,Justin Lower (21777693),Justin Lower,21777693,G,6900,Corales Puntacana Championship,Golf,57.36
+G,Sean O'Hair (21777694),Sean O'Hair,21777694,G,6900,Corales Puntacana Championship,Golf,56.57
+G,Sung Kang (21777695),Sung Kang,21777695,G,6900,Corales Puntacana Championship,Golf,55.5
+G,Vince Whaley (21777696),Vince Whaley,21777696,G,6800,Corales Puntacana Championship,Golf,56.64
+G,Brandon Hagy (21777697),Brandon Hagy,21777697,G,6800,Corales Puntacana Championship,Golf,43.77
+G,Bo Hoag (21777698),Bo Hoag,21777698,G,6800,Corales Puntacana Championship,Golf,48.56
+G,Trey Mullinax (21777699),Trey Mullinax,21777699,G,6800,Corales Puntacana Championship,Golf,48.04
+G,Roger Sloan (21777700),Roger Sloan,21777700,G,6800,Corales Puntacana Championship,Golf,44.86
+G,Seth Reeves (21777701),Seth Reeves,21777701,G,6700,Corales Puntacana Championship,Golf,48
+G,Curtis Thompson (21777702),Curtis Thompson,21777702,G,6700,Corales Puntacana Championship,Golf,48.92
+G,Kelly Kraft (21777703),Kelly Kraft,21777703,G,6700,Corales Puntacana Championship,Golf,38.38
+G,Jared Wolfe (21777704),Jared Wolfe,21777704,G,6700,Corales Puntacana Championship,Golf,44.58
+G,Scott Gutschewski (21777705),Scott Gutschewski,21777705,G,6700,Corales Puntacana Championship,Golf,47.28
+G,Chesson Hadley (21777706),Chesson Hadley,21777706,G,6600,Corales Puntacana Championship,Golf,42.2
+G,Bronson Burgoon (21777707),Bronson Burgoon,21777707,G,6600,Corales Puntacana Championship,Golf,45.18
+G,Patrick Flavin (21777708),Patrick Flavin,21777708,G,6600,Corales Puntacana Championship,Golf,83.25
+G,Jonathan Byrd (21777709),Jonathan Byrd,21777709,G,6600,Corales Puntacana Championship,Golf,48.62
+G,Jason Dufner (21777710),Jason Dufner,21777710,G,6600,Corales Puntacana Championship,Golf,36.88
+G,Camilo Villegas (21777711),Camilo Villegas,21777711,G,6500,Corales Puntacana Championship,Golf,49.23
+G,Seung-Yul Noh (21777712),Seung-Yul Noh,21777712,G,6500,Corales Puntacana Championship,Golf,47.04
+G,Michael Gligic (21777713),Michael Gligic,21777713,G,6500,Corales Puntacana Championship,Golf,49.06
+G,David Hearn (21777714),David Hearn,21777714,G,6500,Corales Puntacana Championship,Golf,43.29
+G,David Lingmerth (21777715),David Lingmerth,21777715,G,6500,Corales Puntacana Championship,Golf,45.9
+G,Aaron Baddeley (21777716),Aaron Baddeley,21777716,G,6500,Corales Puntacana Championship,Golf,55.3
+G,Wesley Bryan (21777717),Wesley Bryan,21777717,G,6400,Corales Puntacana Championship,Golf,48.25
+G,Rick Lamb (21777718),Rick Lamb,21777718,G,6400,Corales Puntacana Championship,Golf,54.5
+G,Jim Knous (21777719),Jim Knous,21777719,G,6400,Corales Puntacana Championship,Golf,53.5
+G,Ben Martin (21777720),Ben Martin,21777720,G,6400,Corales Puntacana Championship,Golf,37.8
+G,Paul Barjon (21777721),Paul Barjon,21777721,G,6400,Corales Puntacana Championship,Golf,50.04
+G,Rafael Campos (21777722),Rafael Campos,21777722,G,6400,Corales Puntacana Championship,Golf,37.5
+G,Austin Cook (21777723),Austin Cook,21777723,G,6300,Corales Puntacana Championship,Golf,44.91
+G,Fabian Gomez (21777724),Fabian Gomez,21777724,G,6300,Corales Puntacana Championship,Golf,47.19
+G,Bryson Nimmer (21777725),Bryson Nimmer,21777725,G,6300,Corales Puntacana Championship,Golf,47
+G,Ted Potter Jr. (21777726),Ted Potter Jr.,21777726,G,6300,Corales Puntacana Championship,Golf,26.2
+G,David Skinns (21777727),David Skinns,21777727,G,6300,Corales Puntacana Championship,Golf,45.14
+G,Brett Drewitt (21777728),Brett Drewitt,21777728,G,6300,Corales Puntacana Championship,Golf,48.73
+G,Robert Garrigus (21777729),Robert Garrigus,21777729,G,6300,Corales Puntacana Championship,Golf,69.67
+G,Grayson Murray (21777730),Grayson Murray,21777730,G,6200,Corales Puntacana Championship,Golf,44.6
+G,D.J. Trahan (21777731),D.J. Trahan,21777731,G,6200,Corales Puntacana Championship,Golf,42
+G,Joshua Creel (21777732),Joshua Creel,21777732,G,6200,Corales Puntacana Championship,Golf,37.59
+G,Dawie Van der Walt (21777733),Dawie Van der Walt,21777733,G,6200,Corales Puntacana Championship,Golf,38.59
+G,Greg Chalmers (21777734),Greg Chalmers,21777734,G,6200,Corales Puntacana Championship,Golf,48
+G,Martin Trainer (21777735),Martin Trainer,21777735,G,6200,Corales Puntacana Championship,Golf,40.07
+G,Tommy Gainey (21777736),Tommy Gainey,21777736,G,6200,Corales Puntacana Championship,Golf,39.33
+G,Bo Van Pelt (21777737),Bo Van Pelt,21777737,G,6200,Corales Puntacana Championship,Golf,39.08
+G,Ricky Barnes (21777738),Ricky Barnes,21777738,G,6100,Corales Puntacana Championship,Golf,46.17
+G,George McNeill (21777739),George McNeill,21777739,G,6100,Corales Puntacana Championship,Golf,30.5
+G,Derek Ernst (21777740),Derek Ernst,21777740,G,6100,Corales Puntacana Championship,Golf,69.5
+G,Marcus Byrd (21777741),Marcus Byrd,21777741,G,6100,Corales Puntacana Championship,Golf,0
+G,J.J. Henry (21777742),J.J. Henry,21777742,G,6100,Corales Puntacana Championship,Golf,28
+G,D.A. Points (21777743),D.A. Points,21777743,G,6100,Corales Puntacana Championship,Golf,50
+G,John Merrick (21777744),John Merrick,21777744,G,6100,Corales Puntacana Championship,Golf,22.33
+G,Richard S Johnson (21777745),Richard S Johnson,21777745,G,6100,Corales Puntacana Championship,Golf,33.5
+G,Brian Davis (21777746),Brian Davis,21777746,G,6100,Corales Puntacana Championship,Golf,56.5
+G,Kevin Stadler (21777747),Kevin Stadler,21777747,G,6000,Corales Puntacana Championship,Golf,21.7
+G,Dominic Bozzelli (21777748),Dominic Bozzelli,21777748,G,6000,Corales Puntacana Championship,Golf,0
+G,Jeronimo Esteve (21777749),Jeronimo Esteve,21777749,G,6000,Corales Puntacana Championship,Golf,0
+G,Michael Balcar (21777750),Michael Balcar,21777750,G,6000,Corales Puntacana Championship,Golf,0
+G,Andrew Filbert (21777751),Andrew Filbert,21777751,G,6000,Corales Puntacana Championship,Golf,0
+G,Matt Gogel (21777752),Matt Gogel,21777752,G,6000,Corales Puntacana Championship,Golf,0
+G,Willy Pumarol (21777753),Willy Pumarol,21777753,G,6000,Corales Puntacana Championship,Golf,0
+G,Parker McLachlin (21777754),Parker McLachlin,21777754,G,6000,Corales Puntacana Championship,Golf,16
+G,Juan Jose Guerra (21777755),Juan Jose Guerra,21777755,G,6000,Corales Puntacana Championship,Golf,0
+G,Manuel Relancio (21777756),Manuel Relancio,21777756,G,6000,Corales Puntacana Championship,Golf,0
+G,Hiram Silfa (21777757),Hiram Silfa,21777757,G,6000,Corales Puntacana Championship,Golf,24.5
+G,Andres Romero (21793204),Andres Romero,21793204,G,6000,Corales Puntacana Championship,Golf,28

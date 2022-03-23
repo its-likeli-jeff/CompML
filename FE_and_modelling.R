@@ -1,14 +1,14 @@
-#updated 2021
-pg <- read.csv("~/Downloads/lotsPGA_git2.csv", stringsAsFactors = FALSE, skipNul=TRUE)
+#updated 2022
+pg <- read.csv("https://raw.githubusercontent.com/its-likeli-jeff/CompML/master/lotsPGA_git2022.csv", stringsAsFactors = FALSE, skipNul=TRUE)
 pgorig <- pg
-#pg <- pg[,-1]
+pg <- pg[,-1]
 recpn <- c("Greens in Regulation Percentage", "Driving Accuracy Percentage", 
            "Longest Drives", "Driving Distance", "Total Driving", "Sand Save Percentage",
            "All-Around Ranking", "Ball Striking", "Strokes Gained: Putting",
            "Par 3 Performance", "Par 4 Performance", "Par 5 Performance", 
            "Front 9 Scoring Average","Back 9 Scoring Average")
 colnames(pg)[c(13:26)] <- recpn
-pg$X <- unlist(lapply(strsplit(pg$X, ":"), function(v) v[1]))
+#pg$X <- unlist(lapply(strsplit(pg$X, ":"), function(v) v[1]))
 colnames(pg)[c(1,2,39,14, 15, 17, 22, 29, 31)] <- c("firstlast.i", "Date", "TO.PARSCORE", "GIR", "DRVGACC", "DRVDIST", "STROKESGAINEDPUTTING", "CourseID", "Tournament.Name")
 
 #Cleaning
@@ -43,7 +43,7 @@ pg2[, StrGainRank := frank(-STROKESGAINEDPUTTING, ties.method="min"), by=list(Da
 pg2$Date <- as.Date(pg2$Date)
 pg3 <- pg2
 
-nm <- colnames(pg2)[40:44]
+nm <- colnames(pg2)[48:52]
 nm1 <- paste("lag1", nm, sep=".")
 pg2[, (nm1) :=  shift(.SD), by=firstlast.i, .SDcols=nm]
 #pg2[, (nm1) :=  frollmean(.SD, align="right", n=1), by=firstlast.i, .SDcols=nm]
@@ -65,7 +65,7 @@ nm7 <- paste("lag7", nm, sep=".")
 pg2[, (nm7) :=  frollmean(.SD, align="right", n=7), by=firstlast.i, .SDcols=nm1]
 
 
-wlags <- pg2[,c(40,45:86)]
+wlags <- pg2[,c(48,53:94)]
 wlags <- na.omit(wlags)
 
 #relatively fast
@@ -81,7 +81,7 @@ rfrun
 
 #pull the latest row for each player to feed in for prediction
 tournday <- as.Date(tournday)
-nm <- colnames(pg3)[40:44]
+nm <- colnames(pg3)[48:52]
 nm1 <- paste("lag1", nm, sep=".")
 pg3[, (nm1) :=  .SD, by=firstlast.i, .SDcols=nm]
 #pg2[, (nm1) :=  frollmean(.SD, align="right", n=1), by=firstlast.i, .SDcols=nm]
@@ -104,7 +104,7 @@ pg3[, (nm7) :=  frollmean(.SD, align="right", n=7), by=firstlast.i, .SDcols=nm1]
 
 
 preddat <- pg3[, .SD[.N], by=firstlast.i]
-preddat2 <- as.data.frame(preddat[,c(1,45:86)])
+preddat2 <- as.data.frame(preddat[,c(1,53:94)])
 rownames(preddat2) <- preddat2$firstlast.i
 
 rfpreds <- predict(rfrun, data=na.omit(preddat2))
