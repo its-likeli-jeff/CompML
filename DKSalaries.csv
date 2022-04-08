@@ -1,122 +1,91 @@
 Position,Name + ID,Name,ID,Roster Position,Salary,Game Info,TeamAbbrev,AvgPointsPerGame
-G,Jhonattan Vegas (21777638),Jhonattan Vegas,21777638,G,10600,Corales Puntacana Championship,Golf,66.08
-G,Sahith Theegala (21777639),Sahith Theegala,21777639,G,10400,Corales Puntacana Championship,Golf,64.2
-G,Joel Dahmen (21777640),Joel Dahmen,21777640,G,10200,Corales Puntacana Championship,Golf,70
-G,Nate Lashley (21777641),Nate Lashley,21777641,G,10100,Corales Puntacana Championship,Golf,57.23
-G,Mark Hubbard (21777642),Mark Hubbard,21777642,G,10000,Corales Puntacana Championship,Golf,72.2
-G,Matthias Schwab (21777643),Matthias Schwab,21777643,G,9800,Corales Puntacana Championship,Golf,56.23
-G,Brice Garnett (21777644),Brice Garnett,21777644,G,9600,Corales Puntacana Championship,Golf,49.04
-G,Adam Svensson (21777645),Adam Svensson,21777645,G,9400,Corales Puntacana Championship,Golf,57.39
-G,Kramer Hickok (21777646),Kramer Hickok,21777646,G,9300,Corales Puntacana Championship,Golf,52.04
-G,Thomas Detry (21777647),Thomas Detry,21777647,G,9200,Corales Puntacana Championship,Golf,72.89
-G,Doc Redman (21777648),Doc Redman,21777648,G,9100,Corales Puntacana Championship,Golf,53.43
-G,Alex Smalley (21777649),Alex Smalley,21777649,G,9000,Corales Puntacana Championship,Golf,57.18
-G,Graeme McDowell (21777650),Graeme McDowell,21777650,G,8900,Corales Puntacana Championship,Golf,46.65
-G,Brian Stuard (21777651),Brian Stuard,21777651,G,8800,Corales Puntacana Championship,Golf,49.68
-G,Patrick Rodgers (21777652),Patrick Rodgers,21777652,G,8700,Corales Puntacana Championship,Golf,53.85
-G,Rasmus Hojgaard (21777653),Rasmus Hojgaard,21777653,G,8600,Corales Puntacana Championship,Golf,69.07
-G,Nicolai Hojgaard (21777654),Nicolai Hojgaard,21777654,G,8500,Corales Puntacana Championship,Golf,47.42
-G,Peter Uihlein (21777655),Peter Uihlein,21777655,G,8400,Corales Puntacana Championship,Golf,59
-G,Greyson Sigg (21777656),Greyson Sigg,21777656,G,8300,Corales Puntacana Championship,Golf,58.86
-G,Danny Willett (21777657),Danny Willett,21777657,G,8200,Corales Puntacana Championship,Golf,46.46
-G,Emiliano Grillo (21777658),Emiliano Grillo,21777658,G,8100,Corales Puntacana Championship,Golf,50.29
-G,Aaron Rai (21777659),Aaron Rai,21777659,G,8000,Corales Puntacana Championship,Golf,57.82
-G,Nick Taylor (21777660),Nick Taylor,21777660,G,7900,Corales Puntacana Championship,Golf,59.35
-G,David Lipsky (21777661),David Lipsky,21777661,G,7900,Corales Puntacana Championship,Golf,48.89
-G,Austin Smotherman (21777662),Austin Smotherman,21777662,G,7800,Corales Puntacana Championship,Golf,55.45
-G,Chad Ramey (21777663),Chad Ramey,21777663,G,7800,Corales Puntacana Championship,Golf,54.36
-G,Martin Kaymer (21777664),Martin Kaymer,21777664,G,7700,Corales Puntacana Championship,Golf,47
-G,Hao-Tong Li (21777665),Hao-Tong Li,21777665,G,7700,Corales Puntacana Championship,Golf,77.5
-G,Hudson Swafford (21777666),Hudson Swafford,21777666,G,7600,Corales Puntacana Championship,Golf,56.75
-G,Rafa Cabrera Bello (21777667),Rafa Cabrera Bello,21777667,G,7600,Corales Puntacana Championship,Golf,62.12
-G,Tyler Duncan (21777668),Tyler Duncan,21777668,G,7500,Corales Puntacana Championship,Golf,58.54
-G,Nick Hardy (21777669),Nick Hardy,21777669,G,7500,Corales Puntacana Championship,Golf,53.05
-G,Kurt Kitayama (21777670),Kurt Kitayama,21777670,G,7500,Corales Puntacana Championship,Golf,49.82
-G,Brandon Wu (21777671),Brandon Wu,21777671,G,7400,Corales Puntacana Championship,Golf,46.15
-G,Victor Perez (21777672),Victor Perez,21777672,G,7400,Corales Puntacana Championship,Golf,60.67
-G,Chase Seiffert (21777673),Chase Seiffert,21777673,G,7400,Corales Puntacana Championship,Golf,58
-G,John Huh (21777674),John Huh,21777674,G,7300,Corales Puntacana Championship,Golf,55.75
-G,Hank Lebioda (21777675),Hank Lebioda,21777675,G,7300,Corales Puntacana Championship,Golf,43.64
-G,Adam Schenk (21777676),Adam Schenk,21777676,G,7300,Corales Puntacana Championship,Golf,44.8
-G,Wyndham Clark (21777677),Wyndham Clark,21777677,G,7300,Corales Puntacana Championship,Golf,52.08
-G,Vaughn Taylor (21777678),Vaughn Taylor,21777678,G,7200,Corales Puntacana Championship,Golf,53.94
-G,Cameron Percy (21777679),Cameron Percy,21777679,G,7200,Corales Puntacana Championship,Golf,49
-G,Ben Kohles (21777680),Ben Kohles,21777680,G,7200,Corales Puntacana Championship,Golf,55.5
-G,Kyle Stanley (21777681),Kyle Stanley,21777681,G,7200,Corales Puntacana Championship,Golf,38.5
-G,Callum Tarren (21777682),Callum Tarren,21777682,G,7100,Corales Puntacana Championship,Golf,47.5
-G,Scott Brown (21777683),Scott Brown,21777683,G,7100,Corales Puntacana Championship,Golf,62.67
-G,Hayden Buckley (21777684),Hayden Buckley,21777684,G,7100,Corales Puntacana Championship,Golf,53.61
-G,Kevin Chappell (21777685),Kevin Chappell,21777685,G,7100,Corales Puntacana Championship,Golf,47.39
-G,Dylan Wu (21777686),Dylan Wu,21777686,G,7000,Corales Puntacana Championship,Golf,53
-G,Stephan Jaeger (21777687),Stephan Jaeger,21777687,G,7000,Corales Puntacana Championship,Golf,45.57
-G,Max McGreevy (21777688),Max McGreevy,21777688,G,7000,Corales Puntacana Championship,Golf,51.96
-G,Ryan Armour (21777689),Ryan Armour,21777689,G,7000,Corales Puntacana Championship,Golf,47.12
-G,Bill Haas (21777690),Bill Haas,21777690,G,7000,Corales Puntacana Championship,Golf,51
-G,Kiradech Aphibarnrat (21777691),Kiradech Aphibarnrat,21777691,G,6900,Corales Puntacana Championship,Golf,46.65
-G,Andrew Novak (21777692),Andrew Novak,21777692,G,6900,Corales Puntacana Championship,Golf,50.54
-G,Justin Lower (21777693),Justin Lower,21777693,G,6900,Corales Puntacana Championship,Golf,57.36
-G,Sean O'Hair (21777694),Sean O'Hair,21777694,G,6900,Corales Puntacana Championship,Golf,56.57
-G,Sung Kang (21777695),Sung Kang,21777695,G,6900,Corales Puntacana Championship,Golf,55.5
-G,Vince Whaley (21777696),Vince Whaley,21777696,G,6800,Corales Puntacana Championship,Golf,56.64
-G,Brandon Hagy (21777697),Brandon Hagy,21777697,G,6800,Corales Puntacana Championship,Golf,43.77
-G,Bo Hoag (21777698),Bo Hoag,21777698,G,6800,Corales Puntacana Championship,Golf,48.56
-G,Trey Mullinax (21777699),Trey Mullinax,21777699,G,6800,Corales Puntacana Championship,Golf,48.04
-G,Roger Sloan (21777700),Roger Sloan,21777700,G,6800,Corales Puntacana Championship,Golf,44.86
-G,Seth Reeves (21777701),Seth Reeves,21777701,G,6700,Corales Puntacana Championship,Golf,48
-G,Curtis Thompson (21777702),Curtis Thompson,21777702,G,6700,Corales Puntacana Championship,Golf,48.92
-G,Kelly Kraft (21777703),Kelly Kraft,21777703,G,6700,Corales Puntacana Championship,Golf,38.38
-G,Jared Wolfe (21777704),Jared Wolfe,21777704,G,6700,Corales Puntacana Championship,Golf,44.58
-G,Scott Gutschewski (21777705),Scott Gutschewski,21777705,G,6700,Corales Puntacana Championship,Golf,47.28
-G,Chesson Hadley (21777706),Chesson Hadley,21777706,G,6600,Corales Puntacana Championship,Golf,42.2
-G,Bronson Burgoon (21777707),Bronson Burgoon,21777707,G,6600,Corales Puntacana Championship,Golf,45.18
-G,Patrick Flavin (21777708),Patrick Flavin,21777708,G,6600,Corales Puntacana Championship,Golf,83.25
-G,Jonathan Byrd (21777709),Jonathan Byrd,21777709,G,6600,Corales Puntacana Championship,Golf,48.62
-G,Jason Dufner (21777710),Jason Dufner,21777710,G,6600,Corales Puntacana Championship,Golf,36.88
-G,Camilo Villegas (21777711),Camilo Villegas,21777711,G,6500,Corales Puntacana Championship,Golf,49.23
-G,Seung-Yul Noh (21777712),Seung-Yul Noh,21777712,G,6500,Corales Puntacana Championship,Golf,47.04
-G,Michael Gligic (21777713),Michael Gligic,21777713,G,6500,Corales Puntacana Championship,Golf,49.06
-G,David Hearn (21777714),David Hearn,21777714,G,6500,Corales Puntacana Championship,Golf,43.29
-G,David Lingmerth (21777715),David Lingmerth,21777715,G,6500,Corales Puntacana Championship,Golf,45.9
-G,Aaron Baddeley (21777716),Aaron Baddeley,21777716,G,6500,Corales Puntacana Championship,Golf,55.3
-G,Wesley Bryan (21777717),Wesley Bryan,21777717,G,6400,Corales Puntacana Championship,Golf,48.25
-G,Rick Lamb (21777718),Rick Lamb,21777718,G,6400,Corales Puntacana Championship,Golf,54.5
-G,Jim Knous (21777719),Jim Knous,21777719,G,6400,Corales Puntacana Championship,Golf,53.5
-G,Ben Martin (21777720),Ben Martin,21777720,G,6400,Corales Puntacana Championship,Golf,37.8
-G,Paul Barjon (21777721),Paul Barjon,21777721,G,6400,Corales Puntacana Championship,Golf,50.04
-G,Rafael Campos (21777722),Rafael Campos,21777722,G,6400,Corales Puntacana Championship,Golf,37.5
-G,Austin Cook (21777723),Austin Cook,21777723,G,6300,Corales Puntacana Championship,Golf,44.91
-G,Fabian Gomez (21777724),Fabian Gomez,21777724,G,6300,Corales Puntacana Championship,Golf,47.19
-G,Bryson Nimmer (21777725),Bryson Nimmer,21777725,G,6300,Corales Puntacana Championship,Golf,47
-G,Ted Potter Jr. (21777726),Ted Potter Jr.,21777726,G,6300,Corales Puntacana Championship,Golf,26.2
-G,David Skinns (21777727),David Skinns,21777727,G,6300,Corales Puntacana Championship,Golf,45.14
-G,Brett Drewitt (21777728),Brett Drewitt,21777728,G,6300,Corales Puntacana Championship,Golf,48.73
-G,Robert Garrigus (21777729),Robert Garrigus,21777729,G,6300,Corales Puntacana Championship,Golf,69.67
-G,Grayson Murray (21777730),Grayson Murray,21777730,G,6200,Corales Puntacana Championship,Golf,44.6
-G,D.J. Trahan (21777731),D.J. Trahan,21777731,G,6200,Corales Puntacana Championship,Golf,42
-G,Joshua Creel (21777732),Joshua Creel,21777732,G,6200,Corales Puntacana Championship,Golf,37.59
-G,Dawie Van der Walt (21777733),Dawie Van der Walt,21777733,G,6200,Corales Puntacana Championship,Golf,38.59
-G,Greg Chalmers (21777734),Greg Chalmers,21777734,G,6200,Corales Puntacana Championship,Golf,48
-G,Martin Trainer (21777735),Martin Trainer,21777735,G,6200,Corales Puntacana Championship,Golf,40.07
-G,Tommy Gainey (21777736),Tommy Gainey,21777736,G,6200,Corales Puntacana Championship,Golf,39.33
-G,Bo Van Pelt (21777737),Bo Van Pelt,21777737,G,6200,Corales Puntacana Championship,Golf,39.08
-G,Ricky Barnes (21777738),Ricky Barnes,21777738,G,6100,Corales Puntacana Championship,Golf,46.17
-G,George McNeill (21777739),George McNeill,21777739,G,6100,Corales Puntacana Championship,Golf,30.5
-G,Derek Ernst (21777740),Derek Ernst,21777740,G,6100,Corales Puntacana Championship,Golf,69.5
-G,Marcus Byrd (21777741),Marcus Byrd,21777741,G,6100,Corales Puntacana Championship,Golf,0
-G,J.J. Henry (21777742),J.J. Henry,21777742,G,6100,Corales Puntacana Championship,Golf,28
-G,D.A. Points (21777743),D.A. Points,21777743,G,6100,Corales Puntacana Championship,Golf,50
-G,John Merrick (21777744),John Merrick,21777744,G,6100,Corales Puntacana Championship,Golf,22.33
-G,Richard S Johnson (21777745),Richard S Johnson,21777745,G,6100,Corales Puntacana Championship,Golf,33.5
-G,Brian Davis (21777746),Brian Davis,21777746,G,6100,Corales Puntacana Championship,Golf,56.5
-G,Kevin Stadler (21777747),Kevin Stadler,21777747,G,6000,Corales Puntacana Championship,Golf,21.7
-G,Dominic Bozzelli (21777748),Dominic Bozzelli,21777748,G,6000,Corales Puntacana Championship,Golf,0
-G,Jeronimo Esteve (21777749),Jeronimo Esteve,21777749,G,6000,Corales Puntacana Championship,Golf,0
-G,Michael Balcar (21777750),Michael Balcar,21777750,G,6000,Corales Puntacana Championship,Golf,0
-G,Andrew Filbert (21777751),Andrew Filbert,21777751,G,6000,Corales Puntacana Championship,Golf,0
-G,Matt Gogel (21777752),Matt Gogel,21777752,G,6000,Corales Puntacana Championship,Golf,0
-G,Willy Pumarol (21777753),Willy Pumarol,21777753,G,6000,Corales Puntacana Championship,Golf,0
-G,Parker McLachlin (21777754),Parker McLachlin,21777754,G,6000,Corales Puntacana Championship,Golf,16
-G,Juan Jose Guerra (21777755),Juan Jose Guerra,21777755,G,6000,Corales Puntacana Championship,Golf,0
-G,Manuel Relancio (21777756),Manuel Relancio,21777756,G,6000,Corales Puntacana Championship,Golf,0
-G,Hiram Silfa (21777757),Hiram Silfa,21777757,G,6000,Corales Puntacana Championship,Golf,24.5
-G,Andres Romero (21793204),Andres Romero,21793204,G,6000,Corales Puntacana Championship,Golf,28
+G,Scottie Scheffler (22017861),Scottie Scheffler,22017861,WG,10300,Masters Tournament,Golf,92.62
+G,Dustin Johnson (22017862),Dustin Johnson,22017862,WG,10000,Masters Tournament,Golf,72.9
+G,Cameron Smith (22017863),Cameron Smith,22017863,WG,9900,Masters Tournament,Golf,98.69
+G,Jon Rahm (22017864),Jon Rahm,22017864,WG,9800,Masters Tournament,Golf,84.94
+G,Justin Thomas (22017865),Justin Thomas,22017865,WG,9600,Masters Tournament,Golf,104.15
+G,Viktor Hovland (22017866),Viktor Hovland,22017866,WG,9500,Masters Tournament,Golf,98.35
+G,Rory McIlroy (22017867),Rory McIlroy,22017867,WG,9300,Masters Tournament,Golf,87.89
+G,Patrick Cantlay (22017868),Patrick Cantlay,22017868,WG,9100,Masters Tournament,Golf,94.75
+G,Collin Morikawa (22017869),Collin Morikawa,22017869,WG,9000,Masters Tournament,Golf,89
+G,Brooks Koepka (22017870),Brooks Koepka,22017870,WG,8900,Masters Tournament,Golf,61.38
+G,Jordan Spieth (22017871),Jordan Spieth,22017871,WG,8800,Masters Tournament,Golf,69.28
+G,Will Zalatoris (22017872),Will Zalatoris,22017872,WG,8700,Masters Tournament,Golf,73.45
+G,Xander Schauffele (22017873),Xander Schauffele,22017873,WG,8600,Masters Tournament,Golf,88.5
+G,Daniel Berger (22017874),Daniel Berger,22017874,WG,8500,Masters Tournament,Golf,87
+G,Sungjae Im (22017875),Sungjae Im,22017875,WG,8400,Masters Tournament,Golf,81.54
+G,Joaquin Niemann (22017876),Joaquin Niemann,22017876,WG,8300,Masters Tournament,Golf,75.27
+G,Sam Burns (22017877),Sam Burns,22017877,WG,8200,Masters Tournament,Golf,86.88
+G,Corey Conners (22017878),Corey Conners,22017878,WG,8100,Masters Tournament,Golf,70.21
+G,Louis Oosthuizen (22017879),Louis Oosthuizen,22017879,WG,8000,Masters Tournament,Golf,71
+G,Matt Fitzpatrick (22017880),Matt Fitzpatrick,22017880,WG,8000,Masters Tournament,Golf,76.88
+G,Tyrrell Hatton (22017881),Tyrrell Hatton,22017881,WG,7900,Masters Tournament,Golf,82.72
+G,Shane Lowry (22017882),Shane Lowry,22017882,WG,7900,Masters Tournament,Golf,69.39
+G,Hideki Matsuyama (22017883),Hideki Matsuyama,22017883,WG,7800,Masters Tournament,Golf,88.75
+G,Adam Scott (22017884),Adam Scott,22017884,WG,7800,Masters Tournament,Golf,75.05
+G,Bryson DeChambeau (22017885),Bryson DeChambeau,22017885,WG,7700,Masters Tournament,Golf,63.38
+G,Tiger Woods (22017886),Tiger Woods,22017886,WG,7600,Masters Tournament,Golf,0
+G,Russell Henley (22017887),Russell Henley,22017887,WG,7600,Masters Tournament,Golf,88.59
+G,Tony Finau (22017888),Tony Finau,22017888,WG,7600,Masters Tournament,Golf,63.18
+G,Billy Horschel (22017889),Billy Horschel,22017889,WG,7500,Masters Tournament,Golf,84.56
+G,Webb Simpson (22017890),Webb Simpson,22017890,WG,7500,Masters Tournament,Golf,74.62
+G,Talor Gooch (22017891),Talor Gooch,22017891,WG,7400,Masters Tournament,Golf,84.82
+G,Marc Leishman (22017892),Marc Leishman,22017892,WG,7400,Masters Tournament,Golf,80.82
+G,Cameron Champ (22017893),Cameron Champ,22017893,WG,7400,Masters Tournament,Golf,46.69
+G,Sergio Garcia (22017894),Sergio Garcia,22017894,WG,7300,Masters Tournament,Golf,72.36
+G,Harold Varner III (22017895),Harold Varner III,22017895,WG,7300,Masters Tournament,Golf,63.85
+G,Jason Kokrak (22017896),Jason Kokrak,22017896,WG,7200,Masters Tournament,Golf,70.33
+G,Abraham Ancer (22017897),Abraham Ancer,22017897,WG,7200,Masters Tournament,Golf,70.5
+G,Bubba Watson (22017898),Bubba Watson,22017898,WG,7200,Masters Tournament,Golf,51.38
+G,Robert Macintyre (22017899),Robert Macintyre,22017899,WG,7100,Masters Tournament,Golf,62.92
+G,Sepp Straka (22017900),Sepp Straka,22017900,WG,7100,Masters Tournament,Golf,57.94
+G,Danny Willett (22017901),Danny Willett,22017901,WG,7100,Masters Tournament,Golf,48.79
+G,Thomas Pieters (22017902),Thomas Pieters,22017902,WG,7100,Masters Tournament,Golf,63.58
+G,Erik Van Rooyen (22017903),Erik Van Rooyen,22017903,WG,7000,Masters Tournament,Golf,67.96
+G,Christiaan Bezuidenhout (22017904),Christiaan Bezuidenhout,22017904,WG,7000,Masters Tournament,Golf,64.83
+G,Justin Rose (22017905),Justin Rose,22017905,WG,7000,Masters Tournament,Golf,71.28
+G,Luke List (22017906),Luke List,22017906,WG,7000,Masters Tournament,Golf,64.04
+G,Gary Woodland (22017907),Gary Woodland,22017907,WG,6900,Masters Tournament,Golf,61.38
+G,Brian Harman (22017908),Brian Harman,22017908,WG,6900,Masters Tournament,Golf,63.42
+G,Kevin Kisner (22017909),Kevin Kisner,22017909,WG,6900,Masters Tournament,Golf,67.65
+G,J.J. Spaun (22017910),J.J. Spaun,22017910,WG,6800,Masters Tournament,Golf,66.53
+G,Tommy Fleetwood (22017911),Tommy Fleetwood,22017911,WG,6800,Masters Tournament,Golf,70.22
+G,Si Woo Kim (22017912),Si Woo Kim,22017912,WG,6800,Masters Tournament,Golf,72.03
+G,Tom Hoge (22017913),Tom Hoge,22017913,WG,6800,Masters Tournament,Golf,72.09
+G,Max Homa (22017914),Max Homa,22017914,WG,6800,Masters Tournament,Golf,76.4
+G,Cameron Young (22017915),Cameron Young,22017915,WG,6800,Masters Tournament,Golf,69.83
+G,Seamus Power (22017916),Seamus Power,22017916,WG,6800,Masters Tournament,Golf,74.46
+G,Patrick Reed (22017917),Patrick Reed,22017917,WG,6700,Masters Tournament,Golf,66.04
+G,Lee Westwood (22017918),Lee Westwood,22017918,WG,6700,Masters Tournament,Golf,43.36
+G,Ryan Palmer (22017919),Ryan Palmer,22017919,WG,6700,Masters Tournament,Golf,54.73
+G,Min Woo Lee (22017920),Min Woo Lee,22017920,WG,6700,Masters Tournament,Golf,37.6
+G,Matthew Wolff (22017921),Matthew Wolff,22017921,WG,6600,Masters Tournament,Golf,66.44
+G,Lucas Glover (22017922),Lucas Glover,22017922,WG,6600,Masters Tournament,Golf,66.81
+G,Cameron Davis (22017923),Cameron Davis,22017923,WG,6600,Masters Tournament,Golf,56.46
+G,Mackenzie Hughes (22017924),Mackenzie Hughes,22017924,WG,6600,Masters Tournament,Golf,63.42
+G,Zach Johnson (22017925),Zach Johnson,22017925,WG,6600,Masters Tournament,Golf,46.04
+G,Lucas Herbert (22017926),Lucas Herbert,22017926,WG,6600,Masters Tournament,Golf,56.1
+G,Garrick Higgo (22017927),Garrick Higgo,22017927,WG,6600,Masters Tournament,Golf,53.31
+G,Kevin Na (22017928),Kevin Na,22017928,WG,6500,Masters Tournament,Golf,58.17
+G,Francesco Molinari (22017929),Francesco Molinari,22017929,WG,6500,Masters Tournament,Golf,57.44
+G,Stewart Cink (22017930),Stewart Cink,22017930,WG,6400,Masters Tournament,Golf,54.36
+G,Keita Nakajima (22017931),Keita Nakajima,22017931,WG,6400,Masters Tournament,Golf,66.25
+G,Kyoung-Hoon Lee (22017932),Kyoung-Hoon Lee,22017932,WG,6400,Masters Tournament,Golf,67.23
+G,Hudson Swafford (22017933),Hudson Swafford,22017933,WG,6400,Masters Tournament,Golf,59.66
+G,Padraig Harrington (22017934),Padraig Harrington,22017934,WG,6400,Masters Tournament,Golf,61
+G,Fred Couples (22017935),Fred Couples,22017935,WG,6400,Masters Tournament,Golf,0
+G,Harry Higgs (22017936),Harry Higgs,22017936,WG,6300,Masters Tournament,Golf,49.63
+G,Charl Schwartzel (22017937),Charl Schwartzel,22017937,WG,6300,Masters Tournament,Golf,39.68
+G,Mike Weir (22017938),Mike Weir,22017938,WG,6300,Masters Tournament,Golf,49
+G,Takumi Kanaya (22017939),Takumi Kanaya,22017939,WG,6300,Masters Tournament,Golf,42.83
+G,Bernhard Langer (22017940),Bernhard Langer,22017940,WG,6200,Masters Tournament,Golf,75.4
+G,Guido Migliozzi (22017941),Guido Migliozzi,22017941,WG,6200,Masters Tournament,Golf,35
+G,Vijay Singh (22017942),Vijay Singh,22017942,WG,6200,Masters Tournament,Golf,59
+G,Austin Greaser (22017943),Austin Greaser,22017943,WG,6100,Masters Tournament,Golf,0
+G,James Piot (22017944),James Piot,22017944,WG,6100,Masters Tournament,Golf,14
+G,Larry Mize (22017945),Larry Mize,22017945,WG,6100,Masters Tournament,Golf,38.5
+G,Jose Maria Olazabal (22017946),Jose Maria Olazabal,22017946,WG,6100,Masters Tournament,Golf,43.25
+G,Stewart Hagestad (22017947),Stewart Hagestad,22017947,WG,6000,Masters Tournament,Golf,0
+G,Aaron Jarvis (22017948),Aaron Jarvis,22017948,WG,6000,Masters Tournament,Golf,0
+G,Sandy Lyle (22017949),Sandy Lyle,22017949,WG,6000,Masters Tournament,Golf,34.33
+G,Laird Shepherd (22017950),Laird Shepherd,22017950,WG,6000,Masters Tournament,Golf,0
